@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+  <div class="col-6 align-self-center">
+  <div class="container-md d-flex justify-content-center" >
+    <a href="{% url 'resources' %}" class="btn btn-danger btn-lg m-1" >Bütün Kaynaklar</a>
+    <a href="#" class="btn btn-danger btn-lg m-1" >Dokümanlar</a>
+    <a href="#" class="btn btn-danger btn-lg m-1" >Linkler</a>
+    <a href="#" class="btn btn-danger btn-lg m-1" >Yazarlar</a>
+  </div>
+
+  <hr>
+
+  {% for inner_catg in catgs %}
+
+    <div class="container d-flex justify-content-center" >
+      {% for catg in inner_catg %}
+        <a href="#" class="btn btn-danger btn-lg m-1" >{{ catg.name }}</a>
+      {% endfor %}
+    </div>
+
+  {% endfor %}
+
+  <hr>
+
+  <div class="container d-flex justify-content-center" >
+    <button type="button" class="btn btn-danger btn-lg">Kullanıcılar</button>
+  </div>
+  </div>
+
+{% endblock content %}
+

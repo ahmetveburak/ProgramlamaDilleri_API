@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  
+  <form method="post">
+    {{ form.as_p }}
+    
+    {% comment %} <p>name: {{ form.name }}</p>
+    <p>note: {{ form.note }}</p>
+    <p>rating: {{ form.rating }}</p>
+    <p>enabled: {{ form.enabled }}</p>
+    <p>authors: {{ form.authors }}</p>
+    <p>language: {{ form.language }}</p>
+    <p>local: {{ form.local }}</p>
+    <p>level: {{ form.level }}</p>
+    <p>path: {{ form.path }}</p>
+    <p>url: {{ form.url }}</p> {% endcomment %}
+
+    {% csrf_token %}
+    <p><input type="submit" value="Save"></p>
+  </form>
+{% endblock content %}

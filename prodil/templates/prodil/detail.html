@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load  prodil %} 
+{% load thumbnail %}
+
+
+{% block content %}
+  <div class="container p-3 m-2 bg-danger rounded-3">
+  
+    <h2>{{ object.name }}</h2>
+    <p>Not: {{ object.note }}</p>
+    <p>Yazarlar: {{ object.authors.all|join:', '  }}</p>
+
+    {% if object|model_name == "link" %}
+      <p> {{ object.url}} </p>
+    {% endif %}
+    <p>Puan: {{ object.rating }}</p>
+    <img src="{% thumbnail object.image 400x0 %}">
+
+  </div>
+{% endblock content %}

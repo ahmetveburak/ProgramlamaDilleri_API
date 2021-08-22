@@ -1,0 +1,26 @@
+nav {
+    background: rgb(28, 9, 121);
+    background: linear-gradient(90deg, rgba(28, 9, 121, 1) 0%, rgba(8, 39, 141, 1) 100%);
+}
+
+.navbar-brand {
+    font-family: 'Monoton', cursive !important;
+    font-size: 1.75em !important;
+
+}
+
+nav>div>a,
+nav>div>div>ul>li>a {
+    color: white !important;
+    font-style: normal;
+}
+
+a {
+    color: black !important;
+    font-style: normal;
+}
+
+a:hover {
+    color: black !important;
+    font-style: normal;
+}
