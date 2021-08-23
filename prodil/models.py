@@ -12,6 +12,7 @@ from django.db.models import (
     UniqueConstraint,
 )
 from django.db.models.query_utils import Q
+from django.utils.translation import gettext as _
 from multiselectfield import MultiSelectField
 
 from .utils import ResourceChoices
@@ -28,14 +29,14 @@ auth.models.User.add_to_class("is_prodil_admin", is_prodil_admin)
 
 
 class Author(Model):
-    first_name = CharField(max_length=50)
-    last_name = CharField(max_length=50, blank=True, default="")
-    site = CharField(max_length=100, blank=True, null=True, default="")
+    first_name = CharField(verbose_name=_("First Name"), max_length=50)
+    last_name = CharField(verbose_name=_("Last Name"), max_length=50, blank=True, default="")
+    site = CharField(verbose_name=_("Web Site"), max_length=100, blank=True, null=True, default="")
 
     def __str__(self) -> str:
         return f"{self.first_name} {self.last_name}"
 
-    def fullname(self) -> str:
+    def full_name(self) -> str:
         return f"{self.first_name} {self.last_name}"
 
     class Meta:
@@ -43,9 +44,9 @@ class Author(Model):
 
 
 class Category(Model):
-    name = CharField(max_length=40)
-    enabled = BooleanField()
-    order = IntegerField()
+    name = CharField(verbose_name=_("Programming Language Name"), max_length=40)
+    enabled = BooleanField(verbose_name=_("Is Enabled?"))
+    order = IntegerField(verbose_name=_("Order"))
 
     def __str__(self) -> str:
         return self.name
@@ -55,10 +56,10 @@ class Category(Model):
 
 
 class BotUser(Model):
-    user_id = CharField(max_length=100)
-    first_name = CharField(max_length=70, null=False)
-    last_name = CharField(max_length=70, blank=True, default="")
-    username = CharField(max_length=40, blank=True, default="")
+    user_id = CharField(verbose_name=_("Telegram User ID"), max_length=100)
+    first_name = CharField(verbose_name=_("First Name"), max_length=70, null=False)
+    last_name = CharField(verbose_name=_("Last Name"), max_length=70, blank=True, default="")
+    username = CharField(verbose_name=_("Username"), max_length=40, blank=True, default="")
 
     def __str__(self) -> str:
         return f"ID: {self.user_id} | Name: {self.first_name}"
@@ -82,9 +83,9 @@ class Resource(Model):
         related_query_name="%(app_label)s_%(class)ss",
     )
     language = ManyToManyField(Category)
-    local = CharField(choices=ResourceChoices.LOCAL_CHOICE, max_length=2)
-    level = MultiSelectField(choices=ResourceChoices.LEVEL_CHOICE, max_length=11)
-    res_type = CharField(choices=ResourceChoices.RESOURCE_CHOICE, max_length=2)
+    local = CharField(choices=ResourceChoices.get_local_choice(), max_length=2)
+    level = MultiSelectField(choices=ResourceChoices.get_level_choice(), max_length=11)
+    res_type = CharField(choices=ResourceChoices.get_resource_choice(), max_length=2)
     file_name = CharField(max_length=100, blank=True)
     file_id = CharField(max_length=100, blank=True)
     url = CharField(max_length=100, blank=True)

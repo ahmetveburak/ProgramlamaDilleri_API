@@ -5,11 +5,11 @@
   <div class="col-3">
     <div class="p-3 bg-warning text-white rounded-3 shadow-sm mb-5">
       <form action="" method="get">
-        {{ form.as_p}}
-        <input type="radio" name="type" value="document" id="">
+        {{ filter.form.as_p}}
+        {% comment %} <input type="radio" name="type" value="document" id="">
         <label for="document">Document</label>
         <input type="radio" name="type" value="link" id="1">
-        <label for="link">Link</label>
+        <label for="link">Link</label> {% endcomment %}
         <p><input type="submit" value="Filter"></p>
       </form>
      

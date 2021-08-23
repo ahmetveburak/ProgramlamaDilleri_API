@@ -1,11 +1,16 @@
+from typing import Any
+
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.views import LoginView, LogoutView
+from django.http.request import HttpRequest
+from django.http.response import HttpResponse
 from django.urls import reverse_lazy
 from django.views.generic import ListView
 from django.views.generic.base import TemplateResponseMixin, View
 from django.views.generic.detail import DetailView
 from django.views.generic.edit import CreateView, DeleteView, UpdateView
 
+from prodil.filters import ResourceFilter
 from prodil.forms import ResourceEditForm
 
 from .models import Category, Resource
@@ -40,6 +45,18 @@ class IndexView(TemplateResponseMixin, View):
 class ResourceListView(ListView):
     template_name = "prodil/res_list.html"
     model = Resource
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        res_filter = ResourceFilter(self.request.GET, queryset)
+        return res_filter.qs
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        queryset = self.get_queryset()
+        res_filter = ResourceFilter(self.request.GET, queryset)
+        context["filter"] = res_filter
+        return context
 
 
 class ResourceCreateView(LoginRequiredMixin, CreateView):

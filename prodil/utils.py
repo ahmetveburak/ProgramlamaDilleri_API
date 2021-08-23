@@ -2,17 +2,33 @@ class ResourceChoices:
     BOOK = "BK"
     DOCUMENT = "DC"
     LINK = "LN"
-    RESOURCE_CHOICE = ((BOOK, "Book"), (DOCUMENT, "Document"), (LINK, "Link"))
 
     TURKISH = "TR"
     ENGLISH = "EN"
-    LOCAL_CHOICE = ((TURKISH, "Turkish"), (ENGLISH, "English"))
 
     BEGINNER = "BGN"
     EXPERIENCED = "EXP"
     PROFESSIONAL = "PRO"
-    LEVEL_CHOICE = (
-        (BEGINNER, "Beginner"),
-        (EXPERIENCED, "Experinced"),
-        (PROFESSIONAL, "Professional"),
-    )
+
+    @classmethod
+    def get_level_choice(cls):
+        return (
+            (cls.BEGINNER, "Beginner"),
+            (cls.EXPERIENCED, "Experinced"),
+            (cls.PROFESSIONAL, "Professional"),
+        )
+
+    @classmethod
+    def get_resource_choice(cls):
+        return (
+            (cls.BOOK, "Book"),
+            (cls.DOCUMENT, "Document"),
+            (cls.LINK, "Link"),
+        )
+
+    @classmethod
+    def get_local_choice(cls):
+        return (
+            (cls.TURKISH, "Turkish"),
+            (cls.ENGLISH, "English"),
+        )
