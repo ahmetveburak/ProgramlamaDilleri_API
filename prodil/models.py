@@ -1,4 +1,7 @@
+from __future__ import annotations
+
 from django.contrib import auth
+from django.contrib.auth.models import AbstractUser
 from django.contrib.auth.models import User as DUser
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db.models import (
@@ -11,6 +14,7 @@ from django.db.models import (
     Model,
     UniqueConstraint,
 )
+from django.db.models.fields import DateTimeField
 from django.db.models.query_utils import Q
 from django.utils.translation import gettext as _
 from multiselectfield import MultiSelectField
@@ -18,14 +22,11 @@ from multiselectfield import MultiSelectField
 from .utils import ResourceChoices
 
 
-# will be replaced to AbstractUser model
-def is_prodil_admin(User: DUser):
-    if User.is_active and User.has_perm("prodil.prodil_admin"):
-        return True
-    return False
-
-
-auth.models.User.add_to_class("is_prodil_admin", is_prodil_admin)
+class User(AbstractUser):
+    def is_prodil_admin(self, user: User):
+        if user.is_active and user.has_perm("prodil.prodil_admin"):
+            return True
+        return False
 
 
 class Author(Model):
@@ -69,27 +70,30 @@ class BotUser(Model):
 
 
 class Resource(Model):
-    name = CharField(max_length=100, null=False)
-    note = CharField(max_length=300, null=True, blank=True)
+    name = CharField(verbose_name="Resource Name", max_length=100, null=False)
+    note = CharField(verbose_name="About", max_length=300, null=True, blank=True)
     rating = FloatField(
         default=0.5,
         validators=[MinValueValidator(0.0), MaxValueValidator(10.0)],
     )
-    enabled = BooleanField(default=False)
+    enabled = BooleanField(verbose_name="Is Enabled?", default=False)
     # https://docs.djangoproject.com/en/3.2/topics/db/models/#be-careful-with-related-name-and-related-query-name
     authors = ManyToManyField(
-        Author,
+        to=Author,
         related_name="%(app_label)s_%(class)s_related",
         related_query_name="%(app_label)s_%(class)ss",
+        verbose_name="Authors of Resource",
     )
-    language = ManyToManyField(Category)
-    local = CharField(choices=ResourceChoices.get_local_choice(), max_length=2)
-    level = MultiSelectField(choices=ResourceChoices.get_level_choice(), max_length=11)
-    res_type = CharField(choices=ResourceChoices.get_resource_choice(), max_length=2)
-    file_name = CharField(max_length=100, blank=True)
+    language = ManyToManyField(to=Category, verbose_name="Programming Language")
+    local = CharField(choices=ResourceChoices.get_local_choice(), max_length=2, verbose_name="Language")
+    level = MultiSelectField(choices=ResourceChoices.get_level_choice(), max_length=11, verbose_name="Level")
+    res_type = CharField(choices=ResourceChoices.get_resource_choice(), max_length=2, verbose_name="Type of Resource")
+    file_name = CharField(max_length=100, blank=True, verbose_name="File Name")
     file_id = CharField(max_length=100, blank=True)
-    url = CharField(max_length=100, blank=True)
-    image = ImageField(upload_to="resource_imgs", default="not-found.jpg", blank=True)
+    url = CharField(max_length=100, blank=True, verbose_name="Website")
+    image = ImageField(upload_to="resource_imgs", default="not-found.jpg", blank=True, verbose_name="Image")
+    created = DateTimeField(auto_now_add=True)
+    updated = DateTimeField(auto_now=True)
 
     def __str__(self) -> str:
         return f"{self.res_type} | {self.name}"
