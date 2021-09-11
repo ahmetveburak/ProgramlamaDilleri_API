@@ -1,14 +1,13 @@
 [tool.poetry]
 name = "programlamadilleri_api"
 version = "0.1.0"
-description = ""
+description = "Admin Panel and API for Programlama Dilleri Telegram Bot"
 authors = ["ahmetveburak <ahmetbozyurtt@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 Django = "^3.2.4"
 psycopg2 = "^2.8.6"
-django-multiselectfield = "^0.1.12"
 djangorestframework = "^3.12.4"
 djangorestframework-api-key = "^2.0.0"
 Pillow = "^8.3.1"

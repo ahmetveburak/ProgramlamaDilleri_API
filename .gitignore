@@ -6,7 +6,8 @@ __pycache__/
 
 # C extensions
 *.so
-
+# Migration Wipe Script
+clear_mig.sh
 # Distribution / packaging
 .Python
 build/

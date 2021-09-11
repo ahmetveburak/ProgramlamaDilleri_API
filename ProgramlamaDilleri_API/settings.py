@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 import os
-from configparser import ConfigParser, SectionProxy
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -26,9 +25,6 @@ SECRET_KEY = "django-insecure-$8t!v$!1lra)duz@35dojvzj@f4_1zw=sj&0e*t%*dn_d+c$qf
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-sqlconfig: ConfigParser = ConfigParser()
-sqlconfig.read("sql.ini")
-csql: SectionProxy = sqlconfig["SQLSETTINGS"]
 
 ALLOWED_HOSTS: list = []
 
@@ -43,7 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "prodil.apps.ProdilConfig",
-    "multiselectfield",
+    "profiles.apps.ProfilesConfig",
     "rest_framework",
     "rest_framework_api_key",
     "easy_thumbnails",
@@ -86,12 +82,8 @@ WSGI_APPLICATION = "ProgramlamaDilleri_API.wsgi.application"
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": csql["DB_DATABASE"],
-        "USER": csql["DB_USERNAME"],
-        "PASSWORD": csql["DB_PASSWORD"],
-        "HOST": csql["DB_ADRESSES"],
-        "PORT": csql["DB_PORT"],
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
     }
 }
 
@@ -153,3 +145,5 @@ REST_FRAMEWORK = {
 LOGIN_REDIRECT_URL = "resources"
 LOGIN_URL = "login"
 LOGOUT_URL = "logout"
+
+AUTH_USER_MODEL = "profiles.User"
