@@ -1,8 +1,3 @@
-from __future__ import annotations
-
-from django.contrib import auth
-from django.contrib.auth.models import AbstractUser
-from django.contrib.auth.models import User as DUser
 from django.core.validators import MaxValueValidator, MinValueValidator
 from django.db.models import (
     BooleanField,
@@ -17,22 +12,14 @@ from django.db.models import (
 from django.db.models.fields import DateTimeField
 from django.db.models.query_utils import Q
 from django.utils.translation import gettext as _
-from multiselectfield import MultiSelectField
 
-from .utils import ResourceChoices
-
-
-class User(AbstractUser):
-    def is_prodil_admin(self, user: User):
-        if user.is_active and user.has_perm("prodil.prodil_admin"):
-            return True
-        return False
+from prodil.utils import ResourceChoices
 
 
 class Author(Model):
-    first_name = CharField(verbose_name=_("First Name"), max_length=50)
-    last_name = CharField(verbose_name=_("Last Name"), max_length=50, blank=True, default="")
-    site = CharField(verbose_name=_("Web Site"), max_length=100, blank=True, null=True, default="")
+    first_name = CharField(_("First Name"), max_length=50)
+    last_name = CharField(_("Last Name"), max_length=50, blank=True, default="")
+    site = CharField(_("Web Site"), max_length=100, blank=True, null=True, default="")
 
     def __str__(self) -> str:
         return f"{self.first_name} {self.last_name}"
@@ -44,10 +31,10 @@ class Author(Model):
         ordering = ("last_name",)
 
 
-class Category(Model):
-    name = CharField(verbose_name=_("Programming Language Name"), max_length=40)
-    enabled = BooleanField(verbose_name=_("Is Enabled?"))
-    order = IntegerField(verbose_name=_("Order"))
+class ProgrammingLanguage(Model):
+    name = CharField(_("Programming Language Name"), max_length=40)
+    enabled = BooleanField(_("Is Enabled?"))
+    order = IntegerField(_("Order"))
 
     def __str__(self) -> str:
         return self.name
@@ -57,10 +44,10 @@ class Category(Model):
 
 
 class BotUser(Model):
-    user_id = CharField(verbose_name=_("Telegram User ID"), max_length=100)
-    first_name = CharField(verbose_name=_("First Name"), max_length=70, null=False)
-    last_name = CharField(verbose_name=_("Last Name"), max_length=70, blank=True, default="")
-    username = CharField(verbose_name=_("Username"), max_length=40, blank=True, default="")
+    user_id = CharField(_("Telegram User ID"), max_length=100)
+    first_name = CharField(_("First Name"), max_length=70, null=False)
+    last_name = CharField(_("Last Name"), max_length=70, blank=True, default="")
+    username = CharField(_("Username"), max_length=40, blank=True, default="")
 
     def __str__(self) -> str:
         return f"ID: {self.user_id} | Name: {self.first_name}"
@@ -70,13 +57,13 @@ class BotUser(Model):
 
 
 class Resource(Model):
-    name = CharField(verbose_name="Resource Name", max_length=100, null=False)
-    note = CharField(verbose_name="About", max_length=300, null=True, blank=True)
+    name = CharField(_("Resource Name"), max_length=100, null=False)
+    note = CharField(_("About"), max_length=300, null=True, blank=True)
     rating = FloatField(
         default=0.5,
         validators=[MinValueValidator(0.0), MaxValueValidator(10.0)],
     )
-    enabled = BooleanField(verbose_name="Is Enabled?", default=False)
+    enabled = BooleanField(_("Is Enabled?"), default=False)
     # https://docs.djangoproject.com/en/3.2/topics/db/models/#be-careful-with-related-name-and-related-query-name
     authors = ManyToManyField(
         to=Author,
@@ -84,14 +71,14 @@ class Resource(Model):
         related_query_name="%(app_label)s_%(class)ss",
         verbose_name="Authors of Resource",
     )
-    language = ManyToManyField(to=Category, verbose_name="Programming Language")
-    local = CharField(choices=ResourceChoices.get_local_choice(), max_length=2, verbose_name="Language")
-    level = MultiSelectField(choices=ResourceChoices.get_level_choice(), max_length=11, verbose_name="Level")
-    res_type = CharField(choices=ResourceChoices.get_resource_choice(), max_length=2, verbose_name="Type of Resource")
-    file_name = CharField(max_length=100, blank=True, verbose_name="File Name")
+    language = ManyToManyField(verbose_name=_("Programming Language"), to=ProgrammingLanguage)
+    local = CharField(_("Language"), choices=ResourceChoices.get_local_choice(), max_length=2)
+    level = CharField(_("Level"), choices=ResourceChoices.get_level_choice(), max_length=3)
+    res_type = CharField(_("Type of Resource"), choices=ResourceChoices.get_resource_choice(), max_length=2)
+    file_name = CharField(_("File Name"), max_length=100, blank=True)
     file_id = CharField(max_length=100, blank=True)
-    url = CharField(max_length=100, blank=True, verbose_name="Website")
-    image = ImageField(upload_to="resource_imgs", default="not-found.jpg", blank=True, verbose_name="Image")
+    url = CharField(_("Website"), max_length=100, blank=True)
+    image = ImageField(_("Image"), upload_to="resource_imgs", default="not-found.jpg", blank=True)
     created = DateTimeField(auto_now_add=True)
     updated = DateTimeField(auto_now=True)
 

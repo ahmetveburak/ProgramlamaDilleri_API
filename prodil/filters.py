@@ -5,8 +5,6 @@ from prodil.models import Resource
 
 
 class ResourceFilter(FilterSet):
-    level = CharFilter(lookup_expr="icontains")
-
     class Meta:
         model = Resource
         fields = (

@@ -1,6 +1,6 @@
 from django.contrib.auth import models
 from django.db.models import fields
-from prodil.models import Author, BotUser, Category, Resource
+from prodil.models import Author, BotUser, ProgrammingLanguage, Resource
 from rest_framework import serializers
 
 
@@ -12,7 +12,7 @@ class AuthorSerializer(serializers.ModelSerializer):
 
 class LanguageSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Category
+        model = ProgrammingLanguage
         fields = ("full_name",)
 
 

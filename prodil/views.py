@@ -13,7 +13,7 @@ from django.views.generic.edit import CreateView, DeleteView, UpdateView
 from prodil.filters import ResourceFilter
 from prodil.forms import ResourceEditForm
 
-from .models import Category, Resource
+from .models import ProgrammingLanguage, Resource
 
 
 class UserLoginView(LoginView):
@@ -30,7 +30,7 @@ class IndexView(TemplateResponseMixin, View):
     def get(self, request, *args, **kwargs):
         """Get all Categories and divide by 3"""
 
-        CATGS = Category.objects.all()
+        CATGS = ProgrammingLanguage.objects.all()
         COLS = 3
         catgs_divide_by_three = [CATGS[i : i + COLS] for i in range(0, len(CATGS), COLS)]
 
