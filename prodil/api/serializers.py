@@ -17,7 +17,7 @@ class LanguageSerializer(serializers.ModelSerializer):
 
 
 class ResourceSerializer(serializers.ModelSerializer):
-    authors = AuthorSerializer(many=True, read_only=True)
+    # authors = AuthorSerializer(many=True, read_only=True)
 
     class Meta:
         model = Resource

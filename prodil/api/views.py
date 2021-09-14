@@ -4,7 +4,7 @@ from prodil.views import ResourceCreateView
 from rest_framework import mixins, permissions, viewsets
 
 
-class ResourceViewSet(mixins.ListModelMixin, viewsets.GenericViewSet):
+class ResourceViewSet(mixins.ListModelMixin, mixins.CreateModelMixin, viewsets.GenericViewSet):
     serializer_class = ResourceSerializer
     queryset = Resource.objects.all()
     permission_class = (permissions.IsAuthenticated,)
