@@ -25,7 +25,7 @@ class Author(Model):
         return f"{self.first_name} {self.last_name}"
 
     def full_name(self) -> str:
-        return f"{self.first_name} {self.last_name}"
+        return self.__str__()
 
     class Meta:
         ordering = ("last_name",)

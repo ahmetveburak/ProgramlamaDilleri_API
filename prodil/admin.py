@@ -12,7 +12,10 @@ class ResourceAdmin(admin.ModelAdmin):
 
 @admin.register(Author)
 class AuthorAdmin(admin.ModelAdmin):
-    pass
+    list_display = (
+        "id",
+        "full_name",
+    )
 
 
 @admin.register(ProgrammingLanguage)
