@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from prodil.models import Author, ProgrammingLanguage, Resource
+from prodil.record.models import Author, ProgrammingLanguage, Resource
 
 
 @admin.register(Resource)

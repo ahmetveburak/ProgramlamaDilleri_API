@@ -7,19 +7,19 @@ from django.db.models import (
     IntegerField,
     ManyToManyField,
     Model,
+    TextChoices,
+    TextField,
     UniqueConstraint,
 )
 from django.db.models.fields import DateTimeField
 from django.db.models.query_utils import Q
 from django.utils.translation import gettext as _
 
-from prodil.utils import ResourceChoices
-
 
 class Author(Model):
     first_name = CharField(_("First Name"), max_length=50)
-    last_name = CharField(_("Last Name"), max_length=50, blank=True, default="")
-    site = CharField(_("Web Site"), max_length=100, blank=True, null=True, default="")
+    last_name = CharField(_("Last Name"), max_length=50, blank=True)
+    site = CharField(_("Web Site"), max_length=100, blank=True)
 
     def __str__(self) -> str:
         return f"{self.first_name} {self.last_name}"
@@ -32,7 +32,7 @@ class Author(Model):
 
 
 class ProgrammingLanguage(Model):
-    name = CharField(_("Programming Language Name"), max_length=40)
+    name = CharField(_("Programming Language Name"), max_length=50)
     enabled = BooleanField(_("Is Enabled?"))
     order = IntegerField(_("Order"))
 
@@ -43,51 +43,70 @@ class ProgrammingLanguage(Model):
         ordering = ("order",)
 
 
-class BotUser(Model):
-    user_id = CharField(_("Telegram User ID"), max_length=100)
-    first_name = CharField(_("First Name"), max_length=70, null=False)
-    last_name = CharField(_("Last Name"), max_length=70, blank=True, default="")
-    username = CharField(_("Username"), max_length=40, blank=True, default="")
-
-    def __str__(self) -> str:
-        return f"ID: {self.user_id} | Name: {self.first_name}"
-
-    class Meta:
-        ordering = ("user_id",)
-
-
 class Resource(Model):
+    class Level(TextChoices):
+        BEGINNER = "BGN", _("Beginner")
+        EXPERIENCED = "EXP", _("Experienced")
+        PROFESSIONAL = "PRO", _("Professional")
+
+    class Local(TextChoices):
+        ENGLISH = "EN", _("English")
+        TURKISH = "TR", _("Turkish")
+
+    class Content(TextChoices):
+        BOOK = "BK", _("Book")
+        DOCUMENT = "DC", _("Document")
+        LINK = "LN", _("Link")
+
     name = CharField(_("Resource Name"), max_length=100, null=False)
-    note = CharField(_("About"), max_length=300, null=True, blank=True)
+    note = TextField(_("About"), max_length=300, default="")
     rating = FloatField(
-        default=0.5,
+        default=5.0,
         validators=[MinValueValidator(0.0), MaxValueValidator(10.0)],
     )
     enabled = BooleanField(_("Is Enabled?"), default=False)
-    # https://docs.djangoproject.com/en/3.2/topics/db/models/#be-careful-with-related-name-and-related-query-name
     authors = ManyToManyField(
         to=Author,
-        related_name="%(app_label)s_%(class)s_related",
-        related_query_name="%(app_label)s_%(class)ss",
-        verbose_name="Authors of Resource",
+        related_name="resource_author",
+        verbose_name=_("Authors of Resource"),
     )
-    language = ManyToManyField(verbose_name=_("Programming Language"), to=ProgrammingLanguage)
-    local = CharField(_("Language"), choices=ResourceChoices.get_local_choice(), max_length=2)
-    level = CharField(_("Level"), choices=ResourceChoices.get_level_choice(), max_length=3)
-    res_type = CharField(_("Type of Resource"), choices=ResourceChoices.get_resource_choice(), max_length=2)
+    language = ManyToManyField(ProgrammingLanguage, verbose_name=_("Programming Language"))
+    local = CharField(
+        _("Language"),
+        choices=Local.choices,
+        default=Local.TURKISH,
+        max_length=2,
+    )
+    level = CharField(
+        _("Level"),
+        choices=Level.choices,
+        default=Level.BEGINNER,
+        max_length=3,
+    )
+    content = CharField(
+        _("Type of Resource"),
+        choices=Content.choices,
+        default=Content.DOCUMENT,
+        max_length=2,
+    )
     file_name = CharField(_("File Name"), max_length=100, blank=True)
     file_id = CharField(max_length=100, blank=True)
     url = CharField(_("Website"), max_length=100, blank=True)
-    image = ImageField(_("Image"), upload_to="resource_imgs", default="not-found.jpg", blank=True)
+    image = ImageField(
+        _("Image"),
+        upload_to="resource_imgs",
+        default="not-found.jpg",
+        blank=True,
+    )
     created = DateTimeField(auto_now_add=True)
     updated = DateTimeField(auto_now=True)
 
     def __str__(self) -> str:
-        return f"{self.res_type} | {self.name}"
+        return f"{self.content} | {self.name}"
 
     def save(self, *args, **kwargs) -> None:
         # clear missfilled fields for non document choices
-        if self.res_type != ResourceChoices.DOCUMENT:
+        if self.content != Resource.Content.DOCUMENT:
             self.file_name = ""
             self.file_id = ""
 
@@ -98,7 +117,7 @@ class Resource(Model):
         constraints = [
             UniqueConstraint(
                 fields=("file_name",),
-                condition=Q(res_type=ResourceChoices.DOCUMENT),
+                condition=Q(content="DC"),
                 name="unique_document_file_name",
             ),
         ]

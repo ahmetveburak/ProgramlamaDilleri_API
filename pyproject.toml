@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "programlamadilleri_api"
+name = "prodil"
 version = "0.1.0"
 description = "Admin Panel and API for Programlama Dilleri Telegram Bot"
 authors = ["ahmetveburak <ahmetbozyurtt@gmail.com>"]
@@ -12,16 +12,34 @@ djangorestframework = "^3.12.4"
 djangorestframework-api-key = "^2.0.0"
 Pillow = "^8.3.1"
 easy-thumbnails = "^2.7.1"
-django-filter = "^2.4.0"
 pydantic = "^1.8.2"
 
 [tool.poetry.dev-dependencies]
 black = "^21.5b2"
-mypy = "^0.900"
 isort = "^5.9.3"
+mypy = "^0.910"
+pre-commit = "^2.15.0"
 
 [tool.black]
-line-length = 120
+line-length = 119
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | build
+  | dist
+  | \.migrations
+)/
+'''
+
+[tool.isort]
+line_length = 119
+skip_gitignore = true
+skip_glob = "*/migrations/*.py"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
