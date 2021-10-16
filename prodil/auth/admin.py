@@ -4,5 +4,5 @@ from prodil.auth.models import User
 
 
 @admin.register(User)
-class UserAdmin:
+class UserAdmin(admin.ModelAdmin):
     pass

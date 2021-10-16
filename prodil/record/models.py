@@ -7,13 +7,15 @@ from django.db.models import (
     IntegerField,
     ManyToManyField,
     Model,
-    TextChoices,
     TextField,
     UniqueConstraint,
 )
 from django.db.models.fields import DateTimeField
 from django.db.models.query_utils import Q
 from django.utils.translation import gettext as _
+from uuslug import slugify
+
+from prodil.record.managers import Content, Level, Local
 
 
 class Author(Model):
@@ -28,10 +30,11 @@ class Author(Model):
         return self.__str__()
 
     class Meta:
-        ordering = ("last_name",)
+        verbose_name = _("author")
+        verbose_name_plural = _("authors")
 
 
-class ProgrammingLanguage(Model):
+class Category(Model):
     name = CharField(_("Programming Language Name"), max_length=50)
     enabled = BooleanField(_("Is Enabled?"))
     order = IntegerField(_("Order"))
@@ -40,37 +43,25 @@ class ProgrammingLanguage(Model):
         return self.name
 
     class Meta:
-        ordering = ("order",)
+        verbose_name = _("category")
+        verbose_name_plural = _("categories")
 
 
 class Resource(Model):
-    class Level(TextChoices):
-        BEGINNER = "BGN", _("Beginner")
-        EXPERIENCED = "EXP", _("Experienced")
-        PROFESSIONAL = "PRO", _("Professional")
-
-    class Local(TextChoices):
-        ENGLISH = "EN", _("English")
-        TURKISH = "TR", _("Turkish")
-
-    class Content(TextChoices):
-        BOOK = "BK", _("Book")
-        DOCUMENT = "DC", _("Document")
-        LINK = "LN", _("Link")
-
     name = CharField(_("Resource Name"), max_length=100, null=False)
+    slug = CharField(_("Slug"), max_length=200)
     note = TextField(_("About"), max_length=300, default="")
     rating = FloatField(
         default=5.0,
         validators=[MinValueValidator(0.0), MaxValueValidator(10.0)],
     )
     enabled = BooleanField(_("Is Enabled?"), default=False)
-    authors = ManyToManyField(
+    author = ManyToManyField(
         to=Author,
-        related_name="resource_author",
-        verbose_name=_("Authors of Resource"),
+        related_name="resource_authors",
+        verbose_name=_("Authors"),
     )
-    language = ManyToManyField(ProgrammingLanguage, verbose_name=_("Programming Language"))
+    category = ManyToManyField(Category, verbose_name=_("Category"))
     local = CharField(
         _("Language"),
         choices=Local.choices,
@@ -89,14 +80,13 @@ class Resource(Model):
         default=Content.DOCUMENT,
         max_length=2,
     )
-    file_name = CharField(_("File Name"), max_length=100, blank=True)
-    file_id = CharField(max_length=100, blank=True)
+    file_name = CharField(_("File Name"), max_length=255, default="")
+    file_id = CharField(max_length=100, default="")
     url = CharField(_("Website"), max_length=100, blank=True)
     image = ImageField(
         _("Image"),
         upload_to="resource_imgs",
         default="not-found.jpg",
-        blank=True,
     )
     created = DateTimeField(auto_now_add=True)
     updated = DateTimeField(auto_now=True)
@@ -104,20 +94,19 @@ class Resource(Model):
     def __str__(self) -> str:
         return f"{self.content} | {self.name}"
 
-    def save(self, *args, **kwargs) -> None:
-        # clear missfilled fields for non document choices
-        if self.content != Resource.Content.DOCUMENT:
-            self.file_name = ""
-            self.file_id = ""
+    def save(self, *args, **kwargs):
+        if self.created:
+            self.slug = slugify(self.name)
 
-        return super().save(*args, **kwargs)
+        super().save(*args, **kwargs)
 
     class Meta:
-        ordering = ("name",)
+        verbose_name = _("resource")
+        verbose_name_plural = _("resources")
         constraints = [
             UniqueConstraint(
                 fields=("file_name",),
-                condition=Q(content="DC"),
+                condition=Q(content=Content.DOCUMENT),
                 name="unique_document_file_name",
             ),
         ]

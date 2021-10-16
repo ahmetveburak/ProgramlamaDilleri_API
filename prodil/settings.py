@@ -21,9 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = (
-    "django-insecure-$8t!v$!1lra)duz@35dojvzj@f4_1zw=sj&0e*t%*dn_d+c$qf"
-)
+SECRET_KEY = "django-insecure-$8t!v$!1lra)duz@35dojvzj@f4_1zw=sj&0e*t%*dn_d+c$qf"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -40,7 +38,10 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "prodil",
+    "prodil.auth",
     "prodil.record",
+    "prodil.botuser",
     "rest_framework",
     "rest_framework_api_key",
     "easy_thumbnails",
@@ -134,15 +135,11 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-REST_FRAMEWORK = {
-    "DEFAULT_PERMISSION_CLASSES": [
-        "rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"
-    ]
-}
+REST_FRAMEWORK = {"DEFAULT_PERMISSION_CLASSES": ["rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"]}
 
 
 LOGIN_REDIRECT_URL = "resources"
 LOGIN_URL = "login"
 LOGOUT_URL = "logout"
 
-AUTH_USER_MODEL = "auth.User"
+AUTH_USER_MODEL = "prodil_auth.User"

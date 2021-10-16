@@ -4,5 +4,5 @@ from prodil.botuser.models import BotUser
 
 
 @admin.register(BotUser)
-class BotUserAdmin:
+class BotUserAdmin(admin.ModelAdmin):
     pass

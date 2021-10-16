@@ -1,13 +1,13 @@
 from django.contrib import admin
 
-from prodil.record.models import Author, ProgrammingLanguage, Resource
+from prodil.record.models import Author, Category, Resource
 
 
 @admin.register(Resource)
 class ResourceAdmin(admin.ModelAdmin):
-    filter_horizontal = ("authors", "language")
-    search_fields = ("language",)
-    list_filter = ("language", "authors")
+    filter_horizontal = ("author",)
+    search_fields = ("local",)
+    list_filter = ("local", "author")
 
 
 @admin.register(Author)
@@ -18,6 +18,6 @@ class AuthorAdmin(admin.ModelAdmin):
     )
 
 
-@admin.register(ProgrammingLanguage)
-class ProgrammingLanguageAdmin(admin.ModelAdmin):
+@admin.register(Category)
+class CategoryAdmin(admin.ModelAdmin):
     pass
