@@ -6,8 +6,22 @@ from prodil.record.models import Author, Category, Resource
 @admin.register(Resource)
 class ResourceAdmin(admin.ModelAdmin):
     filter_horizontal = ("author",)
-    search_fields = ("local",)
+    search_fields = (
+        "name",
+        "file_name",
+        "level",
+    )
     list_filter = ("local", "author")
+
+    fieldsets = (
+        (
+            "Base",
+            {"fields": ("name", "note", "rating", "enabled")},
+        ),
+        ("Information", {"fields": ("author", "category", "level", "local", "content")}),
+        ("Media", {"fields": ("url", "image")}),
+        ("File Info", {"fields": ("file_name",)})
+    )
 
 
 @admin.register(Author)

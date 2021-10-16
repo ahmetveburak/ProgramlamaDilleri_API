@@ -35,9 +35,9 @@ class Author(Model):
 
 
 class Category(Model):
-    name = CharField(_("Programming Language Name"), max_length=50)
-    enabled = BooleanField(_("Is Enabled?"))
-    order = IntegerField(_("Order"))
+    name = CharField(_("Category Name"), max_length=50)
+    enabled = BooleanField(_("Is Enabled?"), default=True)
+    order = IntegerField(_("Order"),)
 
     def __str__(self) -> str:
         return self.name
@@ -50,12 +50,12 @@ class Category(Model):
 class Resource(Model):
     name = CharField(_("Resource Name"), max_length=100, null=False)
     slug = CharField(_("Slug"), max_length=200)
-    note = TextField(_("About"), max_length=300, default="")
+    note = TextField(_("Note"), max_length=300, default="", blank=True)
     rating = FloatField(
         default=5.0,
         validators=[MinValueValidator(0.0), MaxValueValidator(10.0)],
     )
-    enabled = BooleanField(_("Is Enabled?"), default=False)
+    enabled = BooleanField(_("Is Enabled?"), default=True)
     author = ManyToManyField(
         to=Author,
         related_name="resource_authors",
@@ -80,13 +80,14 @@ class Resource(Model):
         default=Content.DOCUMENT,
         max_length=2,
     )
-    file_name = CharField(_("File Name"), max_length=255, default="")
+    file_name = CharField(_("File Name"), max_length=255)
     file_id = CharField(max_length=100, default="")
     url = CharField(_("Website"), max_length=100, blank=True)
     image = ImageField(
         _("Image"),
         upload_to="resource_imgs",
         default="not-found.jpg",
+        blank=True,
     )
     created = DateTimeField(auto_now_add=True)
     updated = DateTimeField(auto_now=True)
