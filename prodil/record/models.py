@@ -13,7 +13,7 @@ from django.db.models import (
 from django.db.models.fields import DateTimeField
 from django.db.models.query_utils import Q
 from django.utils.translation import gettext as _
-from uuslug import slugify
+from uuslug import uuslug
 
 from prodil.record.managers import Content, Level, Local
 
@@ -96,8 +96,8 @@ class Resource(Model):
         return f"{self.content} | {self.name}"
 
     def save(self, *args, **kwargs):
-        if self.created:
-            self.slug = slugify(self.name)
+        if self.pk is None:
+            self.slug = uuslug(self.name, instance=self)
 
         super().save(*args, **kwargs)
 

@@ -1,0 +1,48 @@
+- model: record.author
+  pk: 1
+  fields:
+    first_name: Author 01
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 2
+  fields:
+    first_name: Author 02
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 3
+  fields:
+    first_name: Author 03
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 4
+  fields:
+    first_name: Author 04
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 5
+  fields:
+    first_name: Author 05
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 6
+  fields:
+    first_name: Author 06
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 7
+  fields:
+    first_name: Author 07
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 8
+  fields:
+    first_name: Author 08
+    last_name: ''
+    site: ''

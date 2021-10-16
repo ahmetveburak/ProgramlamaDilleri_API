@@ -1,0 +1,18 @@
+- model: prodil_auth.user
+  # email: admin@admin.com
+  # pass : 1
+  pk: 1
+  fields:
+    password: pbkdf2_sha256$260000$OUA6BJTTFTFYzEUQ9PU29V$lPAnJtoeuvxkpDfm0L0n38IwfNTb/Mca69AX5+a2F5k=
+    last_login: 2021-10-16 18:52:47.802451+00:00
+    is_superuser: true
+    username: admin
+    is_staff: true
+    is_active: true
+    date_joined: 2021-10-16 18:52:26.823717+00:00
+    first_name: admin
+    last_name: admin
+    display_name: ''
+    email: admin@admin.com
+    groups: []
+    user_permissions: []
