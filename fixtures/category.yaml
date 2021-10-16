@@ -1,0 +1,36 @@
+- model: record.category
+  pk: 1
+  fields:
+    name: C
+    enabled: true
+    order: 1
+- model: record.category
+  pk: 2
+  fields:
+    name: C++
+    enabled: true
+    order: 2
+- model: record.category
+  pk: 3
+  fields:
+    name: Python
+    enabled: true
+    order: 3
+- model: record.category
+  pk: 4
+  fields:
+    name: Java
+    enabled: true
+    order: 4
+- model: record.category
+  pk: 5
+  fields:
+    name: C#
+    enabled: true
+    order: 5
+- model: record.category
+  pk: 6
+  fields:
+    name: Genel
+    enabled: true
+    order: 6

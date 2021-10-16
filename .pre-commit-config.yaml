@@ -1,0 +1,13 @@
+exclude: migrations
+repos:
+  - repo: https://github.com/pycqa/isort
+    rev: 5.9.1
+    hooks:
+      - id: isort
+        args: [--profile=black, --line-length=119, --wrap-length=119]
+
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.9.2
+    hooks:
+      - id: flake8
+        args: [--ignore=E501]
