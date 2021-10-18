@@ -1,0 +1,1772 @@
+- model: record.resource
+  pk: 1
+  fields:
+    name: 21st Century C
+    slug: 21st-century-c
+    note: C ortamlarından, ek standartlardan Debug, Paketlemeden bahseden ve daha
+      nice proje yönetimine dair konuları içeren efsane kitap
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: 21st_century_c.pdf
+    file_id: BQADBAADBwgAAvSXUFF1LkyRoHXLHhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.521871+00:00
+    updated: 2021-10-18 16:32:51.521899+00:00
+    author:
+    - 11
+    category:
+    - 1
+- model: record.resource
+  pk: 2
+  fields:
+    name: Advanced C
+    slug: advanced-c
+    note: C felsefesinden, özel durumlardan, veri tabanı ile C ilişkilerinden ve diğer
+      dillerle C'yi hafiften karşılaştıran güzel bir eser
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Advanced_C.pdf
+    file_id: BQADBAADCAgAAvSXUFGUlm1STGb4jBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.524465+00:00
+    updated: 2021-10-18 16:32:51.524483+00:00
+    author:
+    - 90
+    category:
+    - 1
+- model: record.resource
+  pk: 3
+  fields:
+    name: C Traps and Pitfalls
+    slug: c-traps-and-pitfalls
+    note: Çok karşılaşılan hatalardan bahseden, tuzaklardan kaçınmak için okunması
+      gereken bir kitap
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: C_traps_and_pitfalls.pdf
+    file_id: BQADBAADCQgAAvSXUFE-lo3PqMYdKRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.526084+00:00
+    updated: 2021-10-18 16:32:51.526099+00:00
+    author:
+    - 6
+    category:
+    - 1
+- model: record.resource
+  pk: 4
+  fields:
+    name: Beej’in Ağ Programlama Kılavuzu
+    slug: beejin-ag-programlama-kilavuzu
+    note: Socket/Ağ programlama için Türkçe çevirisi olan mükemmel bir okunası döküman
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: bgnet.pdf
+    file_id: BQADBAADkAkAAjCzKFFeBnulapiHJxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.527694+00:00
+    updated: 2021-10-18 16:32:51.527708+00:00
+    author:
+    - 12
+    category:
+    - 1
+- model: record.resource
+  pk: 5
+  fields:
+    name: Buffer Overflow Attacks Detect/Exploit/Prevent
+    slug: buffer-overflow-attacks-detect-exploit-prevent
+    note: Buffer overflow üzerine detaylıca yazılmış C ile adımları gerçekleştirebilecğeiniz
+      önemli eserlerden
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Buffer.Overflow.Attacks.pdf
+    file_id: BQADBAADkQkAAjCzKFGVM1yBC44kAxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.529321+00:00
+    updated: 2021-10-18 16:32:51.529336+00:00
+    author:
+    - 57
+    - 79
+    - 80
+    - 108
+    category:
+    - 1
+- model: record.resource
+  pk: 6
+  fields:
+    name: C Programming FAQ's
+    slug: c-programming-faq-s
+    note: C dilinde yüzlerce soruya verilmiş cevaplar bütünü
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: C_Programming_FAQs.pdf
+    file_id: BQADBAADCggAAvSXUFHxJVaNq0raWxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.532590+00:00
+    updated: 2021-10-18 16:32:51.532606+00:00
+    author:
+    - 100
+    category:
+    - 1
+- model: record.resource
+  pk: 7
+  fields:
+    name: C&C++ Code Capsules
+    slug: c-c-code-capsules
+    note: C ve C++ ile karşılaştırmalı ilerleyen pratik çözümler içeren bir eser
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: C_Cpp_Code_Capsules.pdf
+    file_id: BQADBAADCwgAAvSXUFFu4AbO8Ny1wxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.534211+00:00
+    updated: 2021-10-18 16:32:51.534226+00:00
+    author:
+    - 17
+    category:
+    - 1
+- model: record.resource
+  pk: 8
+  fields:
+    name: C Aptitude
+    slug: c-aptitude
+    note: Turbo C derleyicisi altında çıktıları incelemiş de olsa sorularla C dilinin
+      inceliklerini yansıtan notlar
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: C_Aptitude.pdf
+    file_id: BQADBAADDAgAAvSXUFGIcnLOPfw3yhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.535852+00:00
+    updated: 2021-10-18 16:32:51.535867+00:00
+    author:
+    - 51
+    category:
+    - 1
+- model: record.resource
+  pk: 9
+  fields:
+    name: Introduction to Sockets Programming in C using TCP/IP
+    slug: introduction-to-sockets-programming-in-c-using-tcp-ip
+    note: Socket programlama için hazırlanmış Beej reisinkinden biraz daha farklı
+      konulara girişmiş bir ders notu
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: csocketprog.pdf
+    file_id: BQADBAADtQYAAov8eVMjxmyuMDuAlhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.537491+00:00
+    updated: 2021-10-18 16:32:51.537506+00:00
+    author:
+    - 34
+    - 89
+    category:
+    - 1
+- model: record.resource
+  pk: 10
+  fields:
+    name: Expert C Progamming Deep C Secrets
+    slug: expert-c-progamming-deep-c-secrets
+    note: Daha Derine inmek isteyenlere. Evde denemeyin :D
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: ExpertCProgamming.pdf
+    file_id: BQADBAADqAYAAklJIFAUE6MRGDzmXxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.539635+00:00
+    updated: 2021-10-18 16:32:51.539650+00:00
+    author:
+    - 87
+    category:
+    - 1
+- model: record.resource
+  pk: 11
+  fields:
+    name: Modern C
+    slug: modern-c
+    note: Modern C ismiyle iddialı bir kitap, incelikler içerir
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: ModernC.pdf
+    file_id: BQADBAADDQgAAvSXUFHLYLOQBFDi5xYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.541278+00:00
+    updated: 2021-10-18 16:32:51.541293+00:00
+    author:
+    - 59
+    category:
+    - 1
+- model: record.resource
+  pk: 12
+  fields:
+    name: SERIAL  TRANSMISSION & RECEPTION
+    slug: serial-transmission-reception
+    note: C ile windows makinede seri haberleşme anlatımına sahip ingilizce not.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Serial_Programming.pdf
+    file_id: BQADBAADYggAAv5ycVEmu6gTi0XCMhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.542909+00:00
+    updated: 2021-10-18 16:32:51.542924+00:00
+    author:
+    - 76
+    category:
+    - 1
+- model: record.resource
+  pk: 13
+  fields:
+    name: C/C++ Deitel (Fiziksel Kopya)
+    slug: c-c-deitel-fiziksel-kopya
+    note: Tarihsel anlatımıyla, güzel anektotlarıyla büyüleyici bir eser
+    rating: 9.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: c_cpp_deitel.pdf
+    file_id: BQADBAADHAkAAsHpIVE0MmQn04DvHBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.544520+00:00
+    updated: 2021-10-18 16:32:51.544535+00:00
+    author:
+    - 44
+    - 92
+    category:
+    - 1
+    - 2
+- model: record.resource
+  pk: 14
+  fields:
+    name: Programming with C
+    slug: programming-with-c
+    note: Tarihsel anlatımıyla, güzel anektotlarıyla büyüleyici bir eser
+    rating: 8.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: C_Cpp_Deitel_Eng.pdf
+    file_id: BQADBAAD5gcAAvYseVHfcPYlFlDOqxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.547207+00:00
+    updated: 2021-10-18 16:32:51.547222+00:00
+    author:
+    - 44
+    category:
+    - 1
+- model: record.resource
+  pk: 15
+  fields:
+    name: C Interfaces and Implementations Techniques for Creating Reusable Software
+    slug: c-interfaces-and-implementations-techniques-for-creating-reusable-software
+    note: C ile kütüphaneler, soyutlamalar yapmayı gösteren ve çeşit çeşit uyarlamalar
+      gösteren güzel bir kitap
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: c_interfaces_and_implementations_techniques_for_creating_reusable.pdf
+    file_id: BQADBAADtAYAAov8eVPyHdGHxlJHsRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.548859+00:00
+    updated: 2021-10-18 16:32:51.548873+00:00
+    author:
+    - 32
+    category:
+    - 1
+- model: record.resource
+  pk: 16
+  fields:
+    name: C Klavuzu A'dan Z'ye
+    slug: c-klavuzu-a-dan-z-ye
+    note: Kaan Aslan hocamızın zamanında çıkardığı C kitabı
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: C-klavuzu-adan-zye.pdf
+    file_id: BQADBAADowgAAu4eKFE2C0DpH9p9mBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.550519+00:00
+    updated: 2021-10-18 16:32:51.550534+00:00
+    author:
+    - 9
+    category:
+    - 1
+- model: record.resource
+  pk: 17
+  fields:
+    name: Ders Notu 2
+    slug: ders-notu-2
+    note: Programlamaya C ile hafiften girmek için kısa güzel bir not
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: c.ihsan.serhatlioglu.pdf
+    file_id: BQADBAAD6wgAAu4eKFHI6FYuvBUwoBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.552146+00:00
+    updated: 2021-10-18 16:32:51.552162+00:00
+    author:
+    - 53
+    category:
+    - 1
+- model: record.resource
+  pk: 18
+  fields:
+    name: Ders Notu
+    slug: ders-notu
+    note: Açıklayıcı anlatımıyla C'ye giriş için önerilebilecek bir kaynak
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: c.ismet.kocaman.pdf
+    file_id: BQADBAADiggAAu4eKFE39h25FS9UOBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.553763+00:00
+    updated: 2021-10-18 16:32:51.553778+00:00
+    author:
+    - 54
+    category:
+    - 1
+- model: record.resource
+  pk: 19
+  fields:
+    name: CCS C ile PIC Programlama
+    slug: ccs-c-ile-pic-programlama
+    note: PIC donanımlarına C ile program yazmak isteyenler için güzel bir eser
+    rating: 7.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: ccs_serdar.pdf
+    file_id: BQADBAADiwgAAu4eKFHhrd0Qw5t8CxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.555371+00:00
+    updated: 2021-10-18 16:32:51.555386+00:00
+    author:
+    - 98
+    category:
+    - 1
+- model: record.resource
+  pk: 20
+  fields:
+    name: C Dili Kullanarak Bilgisayar Programlama
+    slug: c-dili-kullanarak-bilgisayar-programlama
+    note: Programlamaya C ile başlamak isteyenler iyi ve öneriler de içeren ders notu
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: CNotlari.pdf
+    file_id: BQADBAADrwgAAs0CMVESGSz6Un4gChYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.556986+00:00
+    updated: 2021-10-18 16:32:51.557001+00:00
+    author:
+    - 45
+    category:
+    - 1
+- model: record.resource
+  pk: 21
+  fields:
+    name: The Complete Reference - C
+    slug: the-complete-reference-c
+    note: Herbert reisten referans kitap olmayı amaçlamış C'den nameler
+    rating: 8.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: HerbertC.pdf
+    file_id: BQADBAAD7AcAAhqbIVEIdoYmWkdhExYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.558606+00:00
+    updated: 2021-10-18 16:32:51.558621+00:00
+    author:
+    - 43
+    category:
+    - 1
+- model: record.resource
+  pk: 22
+  fields:
+    name: CCS C ile MICROCHIP PIC Programlama Kılavuzu
+    slug: ccs-c-ile-microchip-pic-programlama-kilavuzu
+    note: Bu kitap PICPROJE Ekibi tarafından eğitime katkı amacıyla yapılmıştır.
+    rating: 7.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: picproje_c.pdf
+    file_id: BQADBAADZQgAAvUacVGhUbHOe4rnIRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.560221+00:00
+    updated: 2021-10-18 16:32:51.560236+00:00
+    author:
+    - 88
+    category:
+    - 1
+- model: record.resource
+  pk: 23
+  fields:
+    name: Writing Client/Server Programs in C Writing Client/Server Programs in C
+      Using Sockets (A Tutorial)
+    slug: writing-client-server-programs-in-c-writing-client-server-programs-in-c-using-sockets-a-tutorial
+    note: SAS enstütüsü tarafından C ile socketler kullanılarak istemci/sunucu programlarından
+      bahseden doküman.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: clientserver.zip
+    file_id: BQADBAADmQgAApuuAVJPNNF2PgG7jRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.561855+00:00
+    updated: 2021-10-18 16:32:51.561870+00:00
+    author:
+    - 41
+    category:
+    - 1
+- model: record.resource
+  pk: 24
+  fields:
+    name: Soketler
+    slug: soketler
+    note: Soketler hakkında yazılmış Türkçe güzel bir kaynak.
+    rating: 7.2
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: socket_ender.pdf
+    file_id: BQADBAAD2QkAAtLecVEC-zIbhkWVYxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.563471+00:00
+    updated: 2021-10-18 16:32:51.563486+00:00
+    author:
+    - 109
+    category:
+    - 1
+- model: record.resource
+  pk: 25
+  fields:
+    name: Network Oriented C-Programming
+    slug: network-oriented-c-programming
+    note: Ağ konusunda C için yazılmış efsane kitaplardan biri.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Network_Oriented_C.pdf
+    file_id: BQADBAADmggAApuuAVJ0asIZIZs4jBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.565089+00:00
+    updated: 2021-10-18 16:32:51.565104+00:00
+    author:
+    - 60
+    category:
+    - 1
+- model: record.resource
+  pk: 26
+  fields:
+    name: Standart C Fonksiyonları ve Thread’ler
+    slug: standart-c-fonksiyonlari-ve-threadler
+    note: Fonksiyon ve Thread'ler konusunu işleyen güzel bir not.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Fonksiyonlar_Threadler.pdf
+    file_id: BQADBAAD2gkAAtLecVHNh_LRAyAqhRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.567053+00:00
+    updated: 2021-10-18 16:32:51.567075+00:00
+    author:
+    - 114
+    category:
+    - 1
+- model: record.resource
+  pk: 27
+  fields:
+    name: Veri Yapıları ve Algoritmalar
+    slug: veri-yapilari-ve-algoritmalar
+    note: Veri yapılarını anlatan örnek ve çıktılarıyla nadide notlar.
+    rating: 7.5
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: VeriYapıları_MustafaEge.zip
+    file_id: BQADBAADBQcAAmE6cFEoDbvC6IMy2hYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.568752+00:00
+    updated: 2021-10-18 16:32:51.568770+00:00
+    author:
+    - 72
+    category:
+    - 1
+- model: record.resource
+  pk: 28
+  fields:
+    name: Object Oriented C
+    slug: object-oriented-c
+    note: Nesne yönelimli paradigma ve C yanyana gelmez diyenlerin elendiği eser
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: ooc.pdf
+    file_id: BQADBAADDggAAvSXUFER9TGuq8GLexYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.570424+00:00
+    updated: 2021-10-18 16:32:51.570440+00:00
+    author:
+    - 62
+    category:
+    - 1
+- model: record.resource
+  pk: 29
+  fields:
+    name: Algoritmalar ve Programlama
+    slug: algoritmalar-ve-programlama
+    note: Anadolu Üniversitesi ders notları
+    rating: 7.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: algoritmalar_ve_programlama.pdf
+    file_id: BQADBAADrQgAAs0CMVGt0Tkv7Zrv8BYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.572051+00:00
+    updated: 2021-10-18 16:32:51.572067+00:00
+    author:
+    - 3
+    category:
+    - 6
+- model: record.resource
+  pk: 30
+  fields:
+    name: C ve Sistem Programcıları Derneği - C++ Notları
+    slug: c-ve-sistem-programcilari-dernegi-c-notlari
+    note: ''
+    rating: 8.3
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Cpp_Necati_Hoca.pdf
+    file_id: BQADBAADdwcAAqUOgFGVzbKzs0kKchYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.573693+00:00
+    updated: 2021-10-18 16:32:51.573708+00:00
+    author:
+    - 82
+    category:
+    - 2
+- model: record.resource
+  pk: 31
+  fields:
+    name: Design Patterns in Modern C++
+    slug: design-patterns-in-modern-c
+    note: '-'
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Design_Patterns_in_Modern_Cpp.pdf
+    file_id: BQADBAADXAcAAikLaVHnBFn1SYruXhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.575306+00:00
+    updated: 2021-10-18 16:32:51.575320+00:00
+    author:
+    - 24
+    category:
+    - 2
+- model: record.resource
+  pk: 32
+  fields:
+    name: Qt 4 ile C++ GUI Programlama
+    slug: qt-4-ile-c-gui-programlama
+    note: QT4 ile yazılmış ingilizce kaynağın Türkçe çevirisidir. Qt5 den biraz farklı
+      olduğunu bilin. Ama başlangıç yazıları okunabilir.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: qt4ilecppgui.pdf
+    file_id: BQADBAADygcAAmzoeFF8wePjO0l4JBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.576917+00:00
+    updated: 2021-10-18 16:32:51.576932+00:00
+    author:
+    - 106
+    category:
+    - 2
+- model: record.resource
+  pk: 33
+  fields:
+    name: Open Data Structures (in C++)
+    slug: open-data-structures-in-c
+    note: Veri yapılarını anlatan görselliği güzel bir eser.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: DataStructures_PatMorin.pdf
+    file_id: BQADBAADGAoAAn26gFENK5RWStaFWRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.578548+00:00
+    updated: 2021-10-18 16:32:51.578563+00:00
+    author:
+    - 86
+    category:
+    - 2
+- model: record.resource
+  pk: 34
+  fields:
+    name: C++ MKÜ Notları
+    slug: c-mku-notlari
+    note: MKÜ C++ ders notları.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Cpp_MKU_Notlari_EsenYildirim.pdf
+    file_id: BQADBAADFggAAmJieVFY4dBHqao3oxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.580160+00:00
+    updated: 2021-10-18 16:32:51.580174+00:00
+    author:
+    - 112
+    category:
+    - 2
+- model: record.resource
+  pk: 35
+  fields:
+    name: Qt ile Uygulama Geliştirme
+    slug: qt-ile-uygulama-gelistirme
+    note: C ve Sistem Programcıları Derneği. Kaynakları içeren link ise linkler alanında
+      paylaşılmıştır.
+    rating: 8.3
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Qt_ile_UygulamaGelistirme_KaanAslan.pdf
+    file_id: BQADBAADMgkAAg51cVEqnmFESg8eRRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.581815+00:00
+    updated: 2021-10-18 16:32:51.581831+00:00
+    author:
+    - 9
+    category:
+    - 2
+- model: record.resource
+  pk: 36
+  fields:
+    name: C++ Üniversite Notları
+    slug: c-universite-notlari
+    note: 'Notların sıralaması bulunmamaktadır. OOP konularını işlemektedir. '
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Cpp_Uni_Notlari.zip
+    file_id: BQADBAADFwgAAmJieVGoYuuEcILMghYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.583493+00:00
+    updated: 2021-10-18 16:32:51.583510+00:00
+    author:
+    - 62
+    category:
+    - 2
+- model: record.resource
+  pk: 37
+  fields:
+    name: C++ Nesneye Yönelik Programlama
+    slug: c-nesneye-yonelik-programlama
+    note: Ahmet Yesevi Üniversitesi flash tabanlı ders notları.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Nesneye_Yonelik_Programlama_AYU.zip
+    file_id: BQADBAADdwkAAmAAAWhRVZLoB3uVDxUWBA
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.585121+00:00
+    updated: 2021-10-18 16:32:51.585137+00:00
+    author:
+    - 29
+    category:
+    - 2
+- model: record.resource
+  pk: 38
+  fields:
+    name: Thinking in C++ 1-2
+    slug: thinking-in-c-1-2
+    note: ''
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Thinking_in_Cpp.zip
+    file_id: BQADBAADfQgAArFqaVGLEROL3L3SlBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.586746+00:00
+    updated: 2021-10-18 16:32:51.586761+00:00
+    author:
+    - 16
+    category:
+    - 2
+- model: record.resource
+  pk: 39
+  fields:
+    name: C++ Primer 5th Edition
+    slug: c-primer-5th-edition
+    note: ''
+    rating: 9.3
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Cpp_Primer(5th Edition).pdf
+    file_id: BQADBAADjQcAApCteFEiA3zK4UJOVhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.588407+00:00
+    updated: 2021-10-18 16:32:51.588427+00:00
+    author:
+    - 13
+    - 58
+    - 102
+    category:
+    - 2
+- model: record.resource
+  pk: 40
+  fields:
+    name: Python3 İstihza
+    slug: python3-istihza
+    note: Python temelleri için kapsamlı bir Türkçe kaynak. PDF sürümü güncelliğini
+      yitirmektedir. Güncel hali için [Python-Yazbel](https://python-istihza.yazbel.com/)
+      sitesini ziyaret edebilirsiniz.
+    rating: 9.9
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: python3_istihza.pdf
+    file_id: BQADBAADCwkAAug0OVEDgqWdi7is-BYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.591067+00:00
+    updated: 2021-10-18 16:32:51.591082+00:00
+    author:
+    - 36
+    category:
+    - 3
+- model: record.resource
+  pk: 41
+  fields:
+    name: Python Nesne Tabanlı Programlama
+    slug: python-nesne-tabanli-programlama
+    note: Erciyes Üniversitesi ders notları
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Python_OOP_Erciyes.pdf
+    file_id: BQADBAADqggAAvMtMFGvTY9SDBT3ZhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.592697+00:00
+    updated: 2021-10-18 16:32:51.592712+00:00
+    author:
+    - 27
+    category:
+    - 3
+- model: record.resource
+  pk: 42
+  fields:
+    name: Automate The Boring Stuff With Python
+    slug: automate-the-boring-stuff-with-python
+    note: Python ile rutin çalışmalarınızı otomize edin.
+    rating: 9.9
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Automate_The_Boring_Stuff_With_Python.pdf
+    file_id: BQADBAADvgkAArTyaVH-iDQYhNiKlBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.594358+00:00
+    updated: 2021-10-18 16:32:51.594373+00:00
+    author:
+    - 4
+    category:
+    - 3
+- model: record.resource
+  pk: 43
+  fields:
+    name: Django Web Framework
+    slug: django-web-framework
+    note: Django Web Framework için Türkçe kaynak.
+    rating: 8.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: django_tr.pdf
+    file_id: BQADBAADSQcAAoGEaFHCEi7rfS_wIhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.595985+00:00
+    updated: 2021-10-18 16:32:51.596000+00:00
+    author:
+    - 67
+    category:
+    - 3
+- model: record.resource
+  pk: 44
+  fields:
+    name: Algoritma ve Programlamaya Giriş
+    slug: algoritma-ve-programlamaya-giris
+    note: Balıkesir Üniversitesi Ders Notları
+    rating: 7.4
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Algoritma_ve_Programlamaya_Giris.pdf
+    file_id: BQADBAADGwgAAnZnMFEc1caxWS8RbxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.597620+00:00
+    updated: 2021-10-18 16:32:51.597636+00:00
+    author:
+    - 25
+    category:
+    - 6
+- model: record.resource
+  pk: 45
+  fields:
+    name: C Programama Dili ve Nesne Yönelimli Programlamaya Giriş Kurs Notları
+    slug: c-programama-dili-ve-nesne-yonelimli-programlamaya-giris-kurs-notlari
+    note: C ve Sistem Programcıları Derneği
+    rating: 8.7
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: C_KaanAslan.pdf
+    file_id: BQADBAADZwgAAvUacVHIEF11eROVKhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.599281+00:00
+    updated: 2021-10-18 16:32:51.599303+00:00
+    author:
+    - 9
+    category:
+    - 1
+- model: record.resource
+  pk: 46
+  fields:
+    name: C++ Notes for Professionals
+    slug: c-notes-for-professionals
+    note: Detaylı anlatıma sahip C++ notları.
+    rating: 8.6
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: CPlusPlusNotesForProfessionals.pdf
+    file_id: BQADBAADRwcAAprwcFLP5h7w3TW5JRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.600955+00:00
+    updated: 2021-10-18 16:32:51.600970+00:00
+    author:
+    - 40
+    category:
+    - 2
+- model: record.resource
+  pk: 47
+  fields:
+    name: Fluent Python
+    slug: fluent-python
+    note: Kodlarınızı kısa, hızlı ve daha okunabilir yazın.
+    rating: 8.7
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Fluent_Python.pdf
+    file_id: BQADBAADXQgAAr-ySVHDyg8UlZjheRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.602593+00:00
+    updated: 2021-10-18 16:32:51.602608+00:00
+    author:
+    - 65
+    category:
+    - 3
+- model: record.resource
+  pk: 48
+  fields:
+    name: 'Cython: A Guide for Python Programmers'
+    slug: cython-a-guide-for-python-programmers
+    note: C/C++ kütüphaneleri Python ile kullanabilir ve çalışma performansını arttırabilirsiniz
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Cython.pdf
+    file_id: BQADBAADhgoAAqeFaFFhaYWPHMZEvBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.604218+00:00
+    updated: 2021-10-18 16:32:51.604233+00:00
+    author:
+    - 63
+    category:
+    - 3
+- model: record.resource
+  pk: 49
+  fields:
+    name: Learning Python OOP
+    slug: learning-python-oop
+    note: Python OOP - Python v3.3
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Python_OOP.pdf
+    file_id: BQADBAADvwkAArTyaVEZch6f0GUVvxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.605848+00:00
+    updated: 2021-10-18 16:32:51.605862+00:00
+    author:
+    - 74
+    category:
+    - 3
+- model: record.resource
+  pk: 50
+  fields:
+    name: Kivy Documentation
+    slug: kivy-documentation
+    note: Kivy Framework dokümantasyonu. Python v3.7 üstü desteklenmemektedir.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: kivy.pdf
+    file_id: BQADBAADwAkAArTyaVFrHO2G-w8PoBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.607461+00:00
+    updated: 2021-10-18 16:32:51.607476+00:00
+    author:
+    - 110
+    category:
+    - 3
+- model: record.resource
+  pk: 51
+  fields:
+    name: SciPy Lecture Notes 2020
+    slug: scipy-lecture-notes-2020
+    note: Bilimsel hesaplamalarda Python
+    rating: 8.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: SciPy_LectureNotes.pdf
+    file_id: BQADBAAD6AcAAvYseVEv482Ky4zFgBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.609080+00:00
+    updated: 2021-10-18 16:32:51.609095+00:00
+    author:
+    - 111
+    category:
+    - 3
+- model: record.resource
+  pk: 52
+  fields:
+    name: Python Cheat Sheet
+    slug: python-cheat-sheet
+    note: Python'da kullanılan yapıları özetleyen bir doküman.
+    rating: 7.8
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Python_Cheat_Sheet.pdf
+    file_id: BQADBAADGQgAAu4eMFGszyUE_O6AnRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.610694+00:00
+    updated: 2021-10-18 16:32:51.610709+00:00
+    author:
+    - 1
+    category:
+    - 3
+- model: record.resource
+  pk: 53
+  fields:
+    name: Kivy GUI Programlama
+    slug: kivy-gui-programlama
+    note: ''
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: kivy-tr.pdf
+    file_id: BQADBAADSgcAAoGEaFE99sLY6mDe9BYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.612300+00:00
+    updated: 2021-10-18 16:32:51.612315+00:00
+    author:
+    - 73
+    category:
+    - 3
+- model: record.resource
+  pk: 54
+  fields:
+    name: Python Network Programming
+    slug: python-network-programming
+    note: ''
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: PythonNetBinder.pdf
+    file_id: BQADBAAD5wgAAiBZcVGijJ2ySBIBNhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.613913+00:00
+    updated: 2021-10-18 16:32:51.613928+00:00
+    author:
+    - 22
+    category:
+    - 3
+- model: record.resource
+  pk: 55
+  fields:
+    name: Violent Python
+    slug: violent-python
+    note: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security
+      Engineers
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Violent_Python_Cookbook.pdf
+    file_id: BQADBAADGQgAAi-HoVLtiSatj_MsERYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.615526+00:00
+    updated: 2021-10-18 16:32:51.615541+00:00
+    author:
+    - 104
+    category:
+    - 3
+- model: record.resource
+  pk: 56
+  fields:
+    name: Java ve Yazılım Tasarımı
+    slug: java-ve-yazilim-tasarimi
+    note: Başlangıç için faydalı bir Java kaynağı.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Java_A_Altintas.zip
+    file_id: BQADBAADUQgAAoi8aFHk4pSbgvsHJhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.617149+00:00
+    updated: 2021-10-18 16:32:51.617164+00:00
+    author:
+    - 5
+    category:
+    - 4
+- model: record.resource
+  pk: 57
+  fields:
+    name: Java ile 24 Kahve Molası
+    slug: java-ile-24-kahve-molasi
+    note: Java Notları
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Javaile24KahveMolasi.docx
+    file_id: BQADBAADCwgAAnXYaFGGv3QRy7MQzhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.618776+00:00
+    updated: 2021-10-18 16:32:51.618791+00:00
+    author:
+    - 10
+    category:
+    - 4
+- model: record.resource
+  pk: 58
+  fields:
+    name: Java ile Görsel Programlama
+    slug: java-ile-gorsel-programlama
+    note: Temel Java konuları eksiktir.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Gorsel_Programlama.zip
+    file_id: BQADBAADUwgAAoi8aFEJqk_QQGMI2BYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.620429+00:00
+    updated: 2021-10-18 16:32:51.620445+00:00
+    author:
+    - 62
+    category:
+    - 4
+- model: record.resource
+  pk: 59
+  fields:
+    name: Java Bilgisayar Diliyle Programlama
+    slug: java-bilgisayar-diliyle-programlama
+    note: Ege Üniversitesi Java 8 Notları
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Java_Dili_ile_Programlama.pdf
+    file_id: BQADBAADDAgAAnXYaFGJUgxVbFo5uBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.622049+00:00
+    updated: 2021-10-18 16:32:51.622064+00:00
+    author:
+    - 75
+    category:
+    - 4
+- model: record.resource
+  pk: 60
+  fields:
+    name: Java ile Nesneye Yönelik Programlama
+    slug: java-ile-nesneye-yonelik-programlama
+    note: Java notları.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Java_ile_Nesneye_Yonelik_Programlama.pdf
+    file_id: BQADBAADVAgAAoi8aFG-2VHy-sW6FxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.623674+00:00
+    updated: 2021-10-18 16:32:51.623689+00:00
+    author:
+    - 5
+    category:
+    - 4
+- model: record.resource
+  pk: 61
+  fields:
+    name: Java Kitabı
+    slug: java-kitabi
+    note: Temellerinden Java dersleri
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Java_Kitabi.pdf
+    file_id: BQADBAADVQgAAoi8aFFcozkXlZgKRRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.625300+00:00
+    updated: 2021-10-18 16:32:51.625315+00:00
+    author:
+    - 62
+    category:
+    - 4
+- model: record.resource
+  pk: 62
+  fields:
+    name: Java ile Nesneye Yönelik Programlama 2
+    slug: java-ile-nesneye-yonelik-programlama-2
+    note: Java notları.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Java_OguzArslanturk.pdf
+    file_id: BQADBAADVggAAoi8aFGTtVoInOQL3hYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.626916+00:00
+    updated: 2021-10-18 16:32:51.626931+00:00
+    author:
+    - 83
+    category:
+    - 4
+- model: record.resource
+  pk: 63
+  fields:
+    name: Java The Complete Reference 11th Edition
+    slug: java-the-complete-reference-11th-edition
+    note: Java referans dokümanı.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Java_The_Complete_Reference_11th_Edt.pdf
+    file_id: BQADBAADVQcAAmJbgVHKuNQ9HXHiYhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.628547+00:00
+    updated: 2021-10-18 16:32:51.628562+00:00
+    author:
+    - 43
+    category:
+    - 4
+- model: record.resource
+  pk: 64
+  fields:
+    name: Thinking in Java 4th Edition
+    slug: thinking-in-java-4th-edition
+    note: Kapsamlı anlatıma sahip Java kaynağı.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Thinking_in_Java_4th_edition.pdf
+    file_id: BQADBAADVwcAAmJbgVHemuxzXnygdRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.630165+00:00
+    updated: 2021-10-18 16:32:51.630180+00:00
+    author:
+    - 16
+    category:
+    - 4
+- model: record.resource
+  pk: 65
+  fields:
+    name: Temel C Programlama
+    slug: temel-c-programlama
+    note: Yeni başlayanlar için C programlamanın temelleri
+    rating: 8.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Temel_C_Programlama_GDokmetas.pdf
+    file_id: BQADBAADrQgAAmX5sFAlK1FH0e9EMRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.631809+00:00
+    updated: 2021-10-18 16:32:51.631823+00:00
+    author:
+    - 39
+    category:
+    - 1
+- model: record.resource
+  pk: 66
+  fields:
+    name: Herkes İçin C#
+    slug: herkes-icin-c
+    note: Sıfırdan başlayacaklar için temel oluşturarak, işin mantığını kavramayı
+      sağlayan biçimde yazılan bir kitap
+    rating: 10.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Herkes-Icin-Csharp-HSchildt.pdf
+    file_id: BQADBAADNwgAAv8zyFDHfpnNwpsfWBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.633562+00:00
+    updated: 2021-10-18 16:32:51.633581+00:00
+    author:
+    - 43
+    category:
+    - 5
+- model: record.resource
+  pk: 67
+  fields:
+    name: C# in Depth 4th Edition
+    slug: c-in-depth-4th-edition
+    note: Her .NET geliştiricinin okuması gereken bir kitap "Dror Helper"
+    rating: 10.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Csharp-in-Depth-4th-Edition.pdf
+    file_id: BQADBAADNQgAAv8zyFBjjkRVRTk0HhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.635192+00:00
+    updated: 2021-10-18 16:32:51.635208+00:00
+    author:
+    - 55
+    category:
+    - 5
+- model: record.resource
+  pk: 68
+  fields:
+    name: C# ile Yazılım Tasarım Dersleri ve Prensipleri
+    slug: c-ile-yazilim-tasarim-dersleri-ve-prensipleri
+    note: ' Konularla ilgili Türkçe kaynak az bulunduğundan ve birilerinin işine yarar
+      düşüncesiyle geçmiş dönemlerdeki yazarın notlarından toparlanmış, yazar tarafından
+      doküman haline getirilmiş bir versiyonudur.'
+    rating: 9.9
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Csharp-ile-Yazilim-Tasarim-Desenleri.pdf
+    file_id: BQADBAADNAgAAv8zyFBR8LEKJdSAfhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.636864+00:00
+    updated: 2021-10-18 16:32:51.636879+00:00
+    author:
+    - 69
+    category:
+    - 5
+- model: record.resource
+  pk: 69
+  fields:
+    name: C# Programming Yellow Book
+    slug: c-programming-yellow-book
+    note: Kitaptaki kod örneklerin [buradan](http://www.csharpcourse.com/) ulaşabilirsiniz
+    rating: 9.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Csharp-Programming-Yellow-Book.pdf
+    file_id: BQADBAADNggAAv8zyFDN6R3kp4xXohYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.638492+00:00
+    updated: 2021-10-18 16:32:51.638508+00:00
+    author:
+    - 93
+    category:
+    - 5
+- model: record.resource
+  pk: 70
+  fields:
+    name: Algorithms and Complexity
+    slug: algorithms-and-complexity
+    note: ''
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Algorithms-and-Complexity.pdf
+    file_id: BQADBAADXAgAAv8zyFCFH6XmiC9ZSBYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.640109+00:00
+    updated: 2021-10-18 16:32:51.640124+00:00
+    author:
+    - 46
+    category:
+    - 6
+- model: record.resource
+  pk: 71
+  fields:
+    name: Data Structures Succinctly Part1
+    slug: data-structures-succinctly-part1
+    note: ''
+    rating: 8.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Data-Structures-Succinctly-Part1.pdf
+    file_id: BQADBAADXQgAAv8zyFDebyA98Ued2xYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.641729+00:00
+    updated: 2021-10-18 16:32:51.641743+00:00
+    author:
+    - 94
+    category:
+    - 6
+- model: record.resource
+  pk: 72
+  fields:
+    name: Data Structures Succinctly Part2
+    slug: data-structures-succinctly-part2
+    note: ''
+    rating: 8.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Data-Structures-Succinctly-Part2.pdf
+    file_id: BQADBAADXggAAv8zyFAgfXerMawrJhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.643346+00:00
+    updated: 2021-10-18 16:32:51.643361+00:00
+    author:
+    - 94
+    category:
+    - 6
+- model: record.resource
+  pk: 73
+  fields:
+    name: Git 101
+    slug: git-101
+    note: ''
+    rating: 9.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Git101.pdf
+    file_id: BQADBAADXwgAAv8zyFA4MajC6LU-2hYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.644962+00:00
+    updated: 2021-10-18 16:32:51.644977+00:00
+    author:
+    - 2
+    category:
+    - 6
+- model: record.resource
+  pk: 74
+  fields:
+    name: Linux İşletim Sistemi
+    slug: linux-isletim-sistemi
+    note: ''
+    rating: 9.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Linux-Isletim-Sistemi.pdf
+    file_id: BQADBAADYAgAAv8zyFCqZFH33qh2ZhYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.646579+00:00
+    updated: 2021-10-18 16:32:51.646594+00:00
+    author:
+    - 97
+    category:
+    - 6
+- model: record.resource
+  pk: 75
+  fields:
+    name: Linux Succinctly
+    slug: linux-succinctly
+    note: ''
+    rating: 8.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Linux-Succinctly.pdf
+    file_id: BQADBAADYQgAAv8zyFA55ka_wdQYhRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.648257+00:00
+    updated: 2021-10-18 16:32:51.648273+00:00
+    author:
+    - 61
+    category:
+    - 6
+- model: record.resource
+  pk: 76
+  fields:
+    name: Veri Yapıları & Algoritmalar
+    slug: veri-yapilari-algoritmalar
+    note: ''
+    rating: 7.8
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Veri-Yapilari-ve-Algoritmalar.pdf
+    file_id: BQADBAADYggAAv8zyFB0XtHB8vgb8BYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.649890+00:00
+    updated: 2021-10-18 16:32:51.649906+00:00
+    author:
+    - 33
+    category:
+    - 6
+- model: record.resource
+  pk: 77
+  fields:
+    name: Test Kaydi
+    slug: test-kaydi
+    note: Birçok farklı C kod örneğini içermektedir. Yeni öğrenenlerin incelemesi
+      tavsiye edilir.
+    rating: 7.1
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: C_Ornekleri.txt
+    file_id: BQADBAADTAcAAmW0aFGQf8YzXodANRYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.651577+00:00
+    updated: 2021-10-18 16:32:51.651593+00:00
+    author:
+    - 18
+    category:
+    - 1
+- model: record.resource
+  pk: 78
+  fields:
+    name: C Necati Hoca Alistirma Sorulari
+    slug: c-necati-hoca-alistirma-sorulari
+    note: Necati hocanın sınırları zorlayan C alıştırmaları.
+    rating: 9.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: C_Necati_Hoca_Alistirma_Sorulari.pdf
+    file_id: BQADBAADzwgAAu4eKFGVr0H5FfbUHxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.653211+00:00
+    updated: 2021-10-18 16:32:51.653226+00:00
+    author:
+    - 82
+    category:
+    - 1
+- model: record.resource
+  pk: 79
+  fields:
+    name: C Deitel (Dijital Kopya, Yalnızca C)
+    slug: c-deitel-dijital-kopya-yalnizca-c
+    note: Tarihsel anlatımıyla, güzel anektotlarıyla büyüleyici bir eser.
+    rating: 9.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: C_Deitel_Digital.pdf
+    file_id: BQADBAADrggAAs0CMVFhmTzjR_gO4hYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.654842+00:00
+    updated: 2021-10-18 16:32:51.654857+00:00
+    author:
+    - 44
+    - 92
+    category:
+    - 1
+- model: record.resource
+  pk: 80
+  fields:
+    name: C++ Uygulamaları Ders Notları
+    slug: c-uygulamalari-ders-notlari
+    note: C++ uygulamaları dersinde tutulan notlardır.
+    rating: 8.5
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Cpp_Uygulamalari_Sifre_cdernek.pdf
+    file_id: BQADBAADZggAAvUacVEHMdAWI7roqxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.656991+00:00
+    updated: 2021-10-18 16:32:51.657006+00:00
+    author:
+    - 18
+    category:
+    - 1
+- model: record.resource
+  pk: 81
+  fields:
+    name: Programlamaya Giriş Ders Notları
+    slug: programlamaya-giris-ders-notlari
+    note: Başlangıç için ideal, Algoritma mantığından bahsederek C ye geçiş yapan
+      bir ders notu
+    rating: 7.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: Programlamaya-Giris-Ders-Notlari.pdf
+    file_id: BQADBAADWggAAv8zyFDCYtcO2kOEERYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.658631+00:00
+    updated: 2021-10-18 16:32:51.658646+00:00
+    author:
+    - 47
+    category:
+    - 6
+- model: record.resource
+  pk: 82
+  fields:
+    name: Java Notes for Professionals
+    slug: java-notes-for-professionals
+    note: Detaylı anlatıma sahip Java notları.
+    rating: 5.0
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: JavaNotesForProfessionals.pdf
+    file_id: BQADBAADVgcAAmJbgVFVSMssmqqbhxYE
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.660259+00:00
+    updated: 2021-10-18 16:32:51.660274+00:00
+    author:
+    - 40
+    category:
+    - 4
+- model: record.resource
+  pk: 83
+  fields:
+    name: C/C++ Cheat Sheet Documentation
+    slug: c-c-cheat-sheet-documentation
+    note: C/C++ için hazırlanmış cheat sheet dokümanı
+    rating: 0.5
+    enabled: true
+    local: TR
+    level: BGN
+    content: DC
+    file_name: c-cpp-cheatsheet.pdf
+    file_id: BQACAgQAAxkBAAKbc2CMDygMyw2WgfQDFpf64ncZ5Sr1AAIqCwAC-AABYFBimiCaNxUSzh4E
+    url: ''
+    image: not-found.jpg
+    created: 2021-10-18 16:32:51.661877+00:00
+    updated: 2021-10-18 16:32:51.661892+00:00
+    author:
+    - 117
+    category:
+    - 1
+    - 2

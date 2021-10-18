@@ -1,48 +1,714 @@
 - model: record.author
   pk: 1
   fields:
-    first_name: Author 01
-    last_name: ''
-    site: ''
+    first_name: Arş. Gör. Kayhan
+    last_name: Ayar
+    site: https://www.youtube.com/c/KayhanAyar/playlists
 - model: record.author
   pk: 2
   fields:
-    first_name: Author 02
-    last_name: ''
+    first_name: Ali
+    last_name: Özgür
     site: ''
 - model: record.author
   pk: 3
   fields:
-    first_name: Author 03
-    last_name: ''
+    first_name: Anadolu
+    last_name: Üniversitesi
     site: ''
 - model: record.author
   pk: 4
   fields:
-    first_name: Author 04
-    last_name: ''
+    first_name: Al
+    last_name: Sweigart
     site: ''
 - model: record.author
   pk: 5
   fields:
-    first_name: Author 05
-    last_name: ''
+    first_name: Altuğ
+    last_name: Bilgin Altıntaş
     site: ''
 - model: record.author
   pk: 6
   fields:
-    first_name: Author 06
-    last_name: ''
+    first_name: Andrew
+    last_name: Koenig
     site: ''
 - model: record.author
   pk: 7
   fields:
-    first_name: Author 07
-    last_name: ''
+    first_name: Abdurrahman
+    last_name: Ekecik
     site: ''
 - model: record.author
   pk: 8
   fields:
-    first_name: Author 08
+    first_name: Arin
+    last_name: Yazılım
+    site: ''
+- model: record.author
+  pk: 9
+  fields:
+    first_name: Barış
+    last_name: Aslan
+    site: ''
+- model: record.author
+  pk: 10
+  fields:
+    first_name: Burak
+    last_name: Selim Şenyurt
+    site: ''
+- model: record.author
+  pk: 11
+  fields:
+    first_name: Ben
+    last_name: Klemens
+    site: ''
+- model: record.author
+  pk: 12
+  fields:
+    first_name: Brian
+    last_name: Beej Hall
+    site: ''
+- model: record.author
+  pk: 13
+  fields:
+    first_name: Barbara
+    last_name: E. Moo
+    site: ''
+- model: record.author
+  pk: 14
+  fields:
+    first_name: Burak
+    last_name: Selçuk Soyer
+    site: ''
+- model: record.author
+  pk: 15
+  fields:
+    first_name: Başkent
+    last_name: Üniversitesi
+    site: ''
+- model: record.author
+  pk: 16
+  fields:
+    first_name: Bruce
+    last_name: Eckel
+    site: ''
+- model: record.author
+  pk: 17
+  fields:
+    first_name: Chuck
+    last_name: Allison
+    site: ''
+- model: record.author
+  pk: 18
+  fields:
+    first_name: C ve Sistem
+    last_name: Programcıları Derneği
+    site: https://www.csystem.org/
+- model: record.author
+  pk: 19
+  fields:
+    first_name: Çağatay
+    last_name: Çebi
+    site: https://www.cagataycebi.com/
+- model: record.author
+  pk: 20
+  fields:
+    first_name: dotNET
     last_name: ''
+    site: ''
+- model: record.author
+  pk: 21
+  fields:
+    first_name: Draps
+    last_name: TV
+    site: ''
+- model: record.author
+  pk: 22
+  fields:
+    first_name: David
+    last_name: M. Beazley
+    site: ''
+- model: record.author
+  pk: 23
+  fields:
+    first_name: Dr. Rifat
+    last_name: Çölkesen
+    site: ''
+- model: record.author
+  pk: 24
+  fields:
+    first_name: Dimitri
+    last_name: Nesteruk
+    site: ''
+- model: record.author
+  pk: 25
+  fields:
+    first_name: Doç. Dr. İbrahim
+    last_name: Küçükkoç
+    site: ''
+- model: record.author
+  pk: 26
+  fields:
+    first_name: Dr. Fatih
+    last_name: Özkaynak
+    site: ''
+- model: record.author
+  pk: 27
+  fields:
+    first_name: Dr. Cahit
+    last_name: Karakuş
+    site: ''
+- model: record.author
+  pk: 28
+  fields:
+    first_name: Django
+    last_name: Girls
+    site: ''
+- model: record.author
+  pk: 29
+  fields:
+    first_name: Dr. Yalçın
+    last_name: Özkan
+    site: ''
+- model: record.author
+  pk: 30
+  fields:
+    first_name: Datai
+    last_name: Team
+    site: ''
+- model: record.author
+  pk: 31
+  fields:
+    first_name: David
+    last_name: J. Malan - Harvard
+    site: ''
+- model: record.author
+  pk: 32
+  fields:
+    first_name: David
+    last_name: R. Hanson
+    site: ''
+- model: record.author
+  pk: 33
+  fields:
+    first_name: Erkan
+    last_name: Tanyıldızı
+    site: ''
+- model: record.author
+  pk: 34
+  fields:
+    first_name: Eleftherios
+    last_name: Kosmas
+    site: ''
+- model: record.author
+  pk: 35
+  fields:
+    first_name: EnderUnix
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 36
+  fields:
+    first_name: Fırat
+    last_name: Özgül
+    site: ''
+- model: record.author
+  pk: 37
+  fields:
+    first_name: Fırat
+    last_name: Bişkin
+    site: ''
+- model: record.author
+  pk: 38
+  fields:
+    first_name: GNU
+    last_name: Operating System
+    site: ''
+- model: record.author
+  pk: 39
+  fields:
+    first_name: Gökhan
+    last_name: Dökmetaş
+    site: ''
+- model: record.author
+  pk: 40
+  fields:
+    first_name: GoalKicker
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 41
+  fields:
+    first_name: Greg
+    last_name: Granger
+    site: ''
+- model: record.author
+  pk: 42
+  fields:
+    first_name: Fatih
+    last_name: Acet
+    site: https://github.com/fatihacet
+- model: record.author
+  pk: 43
+  fields:
+    first_name: Herbert
+    last_name: Schildt
+    site: ''
+- model: record.author
+  pk: 44
+  fields:
+    first_name: Harvey
+    last_name: M. Deitel
+    site: ''
+- model: record.author
+  pk: 45
+  fields:
+    first_name: Hüseyin
+    last_name: Pekdaş
+    site: ''
+- model: record.author
+  pk: 46
+  fields:
+    first_name: Herbert
+    last_name: S. Wilf
+    site: ''
+- model: record.author
+  pk: 47
+  fields:
+    first_name: H.
+    last_name: Turgut Uyar
+    site: ''
+- model: record.author
+  pk: 48
+  fields:
+    first_name: Hanefi
+    last_name: Mercan
+    site: ''
+- model: record.author
+  pk: 49
+  fields:
+    first_name: Harvey
+    last_name: Deitel
+    site: ''
+- model: record.author
+  pk: 50
+  fields:
+    first_name: Igor
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 51
+  fields:
+    first_name: ittestpapers
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 52
+  fields:
+    first_name: İbrahim
+    last_name: İrdem
+    site: ''
+- model: record.author
+  pk: 53
+  fields:
+    first_name: İhsan
+    last_name: Serhatlioglu
+    site: ''
+- model: record.author
+  pk: 54
+  fields:
+    first_name: İsmet
+    last_name: Kocaman
+    site: ''
+- model: record.author
+  pk: 55
+  fields:
+    first_name: Jon
+    last_name: Skeet
+    site: ''
+- model: record.author
+  pk: 56
+  fields:
+    first_name: Jose
+    last_name: Quintana
+    site: ''
+- model: record.author
+  pk: 57
+  fields:
+    first_name: James
+    last_name: C. Foster
+    site: ''
+- model: record.author
+  pk: 58
+  fields:
+    first_name: Josée
+    last_name: Lajoie
+    site: ''
+- model: record.author
+  pk: 59
+  fields:
+    first_name: Jens
+    last_name: Gustedt
+    site: ''
+- model: record.author
+  pk: 60
+  fields:
+    first_name: Jorge
+    last_name: Miguel Castellote Navas
+    site: ''
+- model: record.author
+  pk: 61
+  fields:
+    first_name: Jason
+    last_name: Cannon
+    site: ''
+- model: record.author
+  pk: 62
+  fields:
+    first_name: Kaynak
+    last_name: Sahibi Bilinmemektedir.
+    site: ''
+- model: record.author
+  pk: 63
+  fields:
+    first_name: Kurt
+    last_name: W. Smith
+    site: ''
+- model: record.author
+  pk: 64
+  fields:
+    first_name: Kaan
+    last_name: Aslan
+    site: ''
+- model: record.author
+  pk: 65
+  fields:
+    first_name: Luciano
+    last_name: Ramalho
+    site: ''
+- model: record.author
+  pk: 66
+  fields:
+    first_name: Mustafa
+    last_name: Murat Coşkun
+    site: ''
+- model: record.author
+  pk: 67
+  fields:
+    first_name: Muslu
+    last_name: Yüksektepe
+    site: ''
+- model: record.author
+  pk: 68
+  fields:
+    first_name: Mert
+    last_name: Mekatronik
+    site: ''
+- model: record.author
+  pk: 69
+  fields:
+    first_name: Mehmet
+    last_name: Taşköprü
+    site: ''
+- model: record.author
+  pk: 70
+  fields:
+    first_name: Microsoft
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 71
+  fields:
+    first_name: Murat
+    last_name: Yucedag
+    site: ''
+- model: record.author
+  pk: 72
+  fields:
+    first_name: Mustafa
+    last_name: EGE
+    site: ''
+- model: record.author
+  pk: 73
+  fields:
+    first_name: Mustafa
+    last_name: Başer
+    site: ''
+- model: record.author
+  pk: 74
+  fields:
+    first_name: Mark
+    last_name: Lutz
+    site: ''
+- model: record.author
+  pk: 75
+  fields:
+    first_name: Mustafa Turhan
+    last_name: Çoban
+    site: ''
+- model: record.author
+  pk: 76
+  fields:
+    first_name: M.Amutha
+    last_name: Bharathi
+    site: ''
+- model: record.author
+  pk: 77
+  fields:
+    first_name: Murat
+    last_name: Yücedağ
+    site: ''
+- model: record.author
+  pk: 78
+  fields:
+    first_name: Melih
+    last_name: Sakarya
+    site: ''
+- model: record.author
+  pk: 79
+  fields:
+    first_name: Niels
+    last_name: Heinen
+    site: ''
+- model: record.author
+  pk: 80
+  fields:
+    first_name: Nish
+    last_name: Bhalla
+    site: ''
+- model: record.author
+  pk: 81
+  fields:
+    first_name: Neso
+    last_name: Academy
+    site: https://www.youtube.com/channel/UCQYMhOMi_Cdj1CEAU-fv80A
+- model: record.author
+  pk: 82
+  fields:
+    first_name: Necati
+    last_name: Ergin
+    site: ''
+- model: record.author
+  pk: 83
+  fields:
+    first_name: Oğuz
+    last_name: Aslantürk
+    site: ''
+- model: record.author
+  pk: 84
+  fields:
+    first_name: Ömer
+    last_name: Gülen
+    site: ''
+- model: record.author
+  pk: 85
+  fields:
+    first_name: Programlama
+    last_name: Federasyonu
+    site: ''
+- model: record.author
+  pk: 86
+  fields:
+    first_name: Pat
+    last_name: Morin
+    site: ''
+- model: record.author
+  pk: 87
+  fields:
+    first_name: Peter
+    last_name: van der Linden
+    site: ''
+- model: record.author
+  pk: 88
+  fields:
+    first_name: PIC
+    last_name: PROJE Ekibi
+    site: ''
+- model: record.author
+  pk: 89
+  fields:
+    first_name: Panagiota
+    last_name: Fatourou
+    site: ''
+- model: record.author
+  pk: 90
+  fields:
+    first_name: Peter
+    last_name: D. Hipson
+    site: ''
+- model: record.author
+  pk: 91
+  fields:
+    first_name: ProgrammingKnowledge
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 92
+  fields:
+    first_name: Paul
+    last_name: J. Deitel
+    site: ''
+- model: record.author
+  pk: 93
+  fields:
+    first_name: Rob
+    last_name: Miles
+    site: ''
+- model: record.author
+  pk: 94
+  fields:
+    first_name: Robert
+    last_name: Horvick
+    site: ''
+- model: record.author
+  pk: 95
+  fields:
+    first_name: sina5an
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 96
+  fields:
+    first_name: Süleyman
+    last_name: Şeker
+    site: ''
+- model: record.author
+  pk: 97
+  fields:
+    first_name: Selçuk
+    last_name: Han Aydın
+    site: ''
+- model: record.author
+  pk: 98
+  fields:
+    first_name: Serdar
+    last_name: Çiçek
+    site: ''
+- model: record.author
+  pk: 99
+  fields:
+    first_name: Sindre
+    last_name: Sorhus
+    site: ''
+- model: record.author
+  pk: 100
+  fields:
+    first_name: Steve
+    last_name: Summit
+    site: ''
+- model: record.author
+  pk: 101
+  fields:
+    first_name: Sentdex
+    last_name: ''
+    site: https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ
+- model: record.author
+  pk: 102
+  fields:
+    first_name: Stanley
+    last_name: B. Lippman
+    site: ''
+- model: record.author
+  pk: 103
+  fields:
+    first_name: Şadi
+    last_name: Evren Seker
+    site: ''
+- model: record.author
+  pk: 104
+  fields:
+    first_name: TJ.
+    last_name: O'Connor
+    site: ''
+- model: record.author
+  pk: 105
+  fields:
+    first_name: Unknown
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 106
+  fields:
+    first_name: Ufuk
+    last_name: Uzun
+    site: ''
+- model: record.author
+  pk: 107
+  fields:
+    first_name: Volkan
+    last_name: Kılıç
+    site: ''
+- model: record.author
+  pk: 108
+  fields:
+    first_name: Vitaly
+    last_name: Osipov
+    site: ''
+- model: record.author
+  pk: 109
+  fields:
+    first_name: www.nostarchpress.com/pythoncrashcourse
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 110
+  fields:
+    first_name: www.kivy.org
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 111
+  fields:
+    first_name: SciPy
+    last_name: Lectures
+    site: www.scipy-lectures.org
+- model: record.author
+  pk: 112
+  fields:
+    first_name: Yrd. Doç. Dr. ESEN
+    last_name: Yıldırım
+    site: ''
+- model: record.author
+  pk: 113
+  fields:
+    first_name: Yazılım
+    last_name: Akademisi
+    site: ''
+- model: record.author
+  pk: 114
+  fields:
+    first_name: Yrd. Doç. Dr. Nurettin
+    last_name: Beşli
+    site: ''
+- model: record.author
+  pk: 115
+  fields:
+    first_name: Arif
+    last_name: Altıok
+    site: https://www.youtube.com/channel/UC7J5glvXStPSh0GsVmbK6GA
+- model: record.author
+  pk: 116
+  fields:
+    first_name: Yusuf
+    last_name: Sezer
+    site: ''
+- model: record.author
+  pk: 117
+  fields:
+    first_name: crazyguitar
+    last_name: ''
+    site: ''
+- model: record.author
+  pk: 118
+  fields:
+    first_name: Antonio
+    last_name: Mele
+    site: ''
+- model: record.author
+  pk: 119
+  fields:
+    first_name: Corey
+    last_name: Schafer
     site: ''
