@@ -111,3 +111,6 @@ class Resource(Model):
                 name="unique_document_file_name",
             ),
         ]
+
+    def categories(self):
+        return ", ".join([i.name for i in self.category.all()])

@@ -11,7 +11,8 @@ class ResourceAdmin(admin.ModelAdmin):
         "file_name",
         "level",
     )
-    list_filter = ("local", "author")
+    list_display = ("name", "categories", "local", "level", "content", "rating", "enabled")
+    list_filter = ("local", "level", "content", "category")
 
     fieldsets = (
         (
@@ -20,7 +21,7 @@ class ResourceAdmin(admin.ModelAdmin):
         ),
         ("Information", {"fields": ("author", "category", "level", "local", "content")}),
         ("Media", {"fields": ("url", "image")}),
-        ("File Info", {"fields": ("file_name",)})
+        ("File Info", {"fields": ("file_name",)}),
     )
 
 
