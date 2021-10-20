@@ -4,6 +4,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import GenericViewSet
 
 from prodil.record.api.serializers import ResourceSerializer
+from prodil.record.filters import ResourceFilter
 from prodil.record.models import Resource
 
 
@@ -14,6 +15,7 @@ class ResourcePagination(PageNumberPagination):
 
 class ResourceViewSet(ListModelMixin, GenericViewSet):
     serializer_class = ResourceSerializer
-    queryset = Resource.objects.all().order_by("rating")
+    queryset = Resource.objects.all().order_by("-rating")
     pagination_class = ResourcePagination
     permission_classes = (IsAuthenticated,)
+    filterset_class = ResourceFilter
