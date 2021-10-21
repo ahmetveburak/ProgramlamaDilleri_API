@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from prodil.record.models import Resource
+from prodil.record.models import Category, Resource
 
 
 class ResourceSerializer(serializers.ModelSerializer):
@@ -20,3 +20,9 @@ class ResourceSerializer(serializers.ModelSerializer):
             "file_id",
             "url",
         )
+
+
+class CategorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Category
+        fields = ("id",)

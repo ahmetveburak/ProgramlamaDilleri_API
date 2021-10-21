@@ -1,11 +1,11 @@
-from rest_framework.mixins import ListModelMixin
+from rest_framework.mixins import ListModelMixin, RetrieveModelMixin
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import GenericViewSet
 
-from prodil.record.api.serializers import ResourceSerializer
+from prodil.record.api.serializers import CategorySerializer, ResourceSerializer
 from prodil.record.filters import ResourceFilter
-from prodil.record.models import Resource
+from prodil.record.models import Category, Resource
 
 
 class ResourcePagination(PageNumberPagination):
@@ -15,7 +15,14 @@ class ResourcePagination(PageNumberPagination):
 
 class ResourceViewSet(ListModelMixin, GenericViewSet):
     serializer_class = ResourceSerializer
-    queryset = Resource.objects.all().order_by("-rating")
+    queryset = Resource.objects.filter(enabled=True).order_by("-rating")
     pagination_class = ResourcePagination
     permission_classes = (IsAuthenticated,)
     filterset_class = ResourceFilter
+
+
+class CategoryViewSet(RetrieveModelMixin, GenericViewSet):
+    serializer_class = CategorySerializer
+    queryset = Category.objects.filter(enabled=True)
+    permission_classes = (IsAuthenticated,)
+    lookup_field = "name"
