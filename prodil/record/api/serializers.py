@@ -25,4 +25,4 @@ class ResourceSerializer(serializers.ModelSerializer):
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
-        fields = ("id",)
+        fields = ("id", "name")
