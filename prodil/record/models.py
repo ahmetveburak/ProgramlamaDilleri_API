@@ -37,7 +37,7 @@ class Author(Model):
 class Category(Model):
     name = CharField(_("Category Name"), max_length=50)
     enabled = BooleanField(_("Is Enabled?"), default=True)
-    order = IntegerField(_("Order"),)
+    order = IntegerField(_("Order"))
 
     def __str__(self) -> str:
         return self.name
