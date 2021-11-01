@@ -7,6 +7,7 @@ from django.db.models import (
     IntegerField,
     ManyToManyField,
     Model,
+    PositiveIntegerField,
     TextField,
     UniqueConstraint,
 )
@@ -81,13 +82,13 @@ class Resource(Model):
         max_length=2,
     )
     file_name = CharField(_("File Name"), max_length=255)
-    file_id = CharField(max_length=100, default="")
+    file_id = CharField(_("File ID"), max_length=100, default="")
+    file_size = PositiveIntegerField(_("File Size"), blank=True)
     url = CharField(_("Website"), max_length=100, blank=True)
     image = ImageField(
         _("Image"),
         upload_to="resource_imgs",
         default="not-found.jpg",
-        blank=True,
     )
     created = DateTimeField(auto_now_add=True)
     updated = DateTimeField(auto_now=True)
