@@ -27,8 +27,8 @@ router.registry.extend(resource_router.registry)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("api/", include(router.urls)),
-    path("api/schema/", SpectacularAPIView.as_view(), name="schema"),
+    path("api/", include((router.urls, "v1"))),
+    path("api/schema/", SpectacularAPIView.as_view(api_version="v1"), name="schema"),
     path("api/schema/redoc/", SpectacularRedocView.as_view(url_name="schema"), name="redoc"),
 ]
 
