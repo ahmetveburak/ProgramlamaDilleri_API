@@ -13,7 +13,7 @@ class ResourcePagination(PageNumberPagination):
     page_size_query_param = "page_size"
 
 
-class ResourceViewSet(mixins.ListModelMixin, GenericViewSet):
+class ResourceViewSet(mixins.RetrieveModelMixin, mixins.ListModelMixin, GenericViewSet):
     serializer_class = ResourceSerializer
     queryset = Resource.objects.filter(enabled=True).order_by("-rating")
     pagination_class = ResourcePagination
@@ -21,14 +21,20 @@ class ResourceViewSet(mixins.ListModelMixin, GenericViewSet):
     filterset_class = ResourceFilter
 
 
-class ResourceUpdateViewSet(mixins.RetrieveModelMixin, mixins.ListModelMixin, mixins.UpdateModelMixin, GenericViewSet):
+class ResourceUpdateViewSet(
+    mixins.RetrieveModelMixin,
+    mixins.ListModelMixin,
+    mixins.UpdateModelMixin,
+    GenericViewSet,
+):
     serializer_class = ResourceUpdateSerializer
     permission_classes = (IsAuthenticated,)
     queryset = Resource.objects.filter(content="DC")
     lookup_field = "file_name"
+    lookup_value_regex = "[^/]+"
 
 
-class CategoryViewSet(mixins.RetrieveModelMixin, GenericViewSet):
+class CategoryViewSet(mixins.CreateModelMixin, mixins.RetrieveModelMixin, GenericViewSet):
     serializer_class = CategorySerializer
     queryset = Category.objects.filter(enabled=True)
     permission_classes = (IsAuthenticated,)

@@ -37,7 +37,7 @@ class ResourceSerializer(serializers.ModelSerializer):
 class ResourceUpdateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Resource
-        fields = ("id", "file_name", "file_id", "file_size")
+        fields = ("file_id", "file_size")
 
 
 class CategorySerializer(serializers.ModelSerializer):

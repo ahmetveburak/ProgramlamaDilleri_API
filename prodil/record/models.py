@@ -8,11 +8,11 @@ from django.db.models import (
     ManyToManyField,
     Model,
     PositiveIntegerField,
+    Q,
     TextField,
     UniqueConstraint,
 )
 from django.db.models.fields import DateTimeField
-from django.db.models.query_utils import Q
 from django.utils.translation import gettext as _
 from uuslug import uuslug
 
