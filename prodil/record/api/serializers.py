@@ -41,6 +41,8 @@ class ResourceUpdateSerializer(serializers.ModelSerializer):
 
 
 class CategorySerializer(serializers.ModelSerializer):
+    order = serializers.IntegerField(write_only=True)
+
     class Meta:
         model = Category
-        fields = ("id", "name")
+        fields = ("id", "name", "order")

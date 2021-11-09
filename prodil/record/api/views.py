@@ -34,7 +34,7 @@ class ResourceUpdateViewSet(
     lookup_value_regex = "[^/]+"
 
 
-class CategoryViewSet(mixins.CreateModelMixin, mixins.RetrieveModelMixin, GenericViewSet):
+class CategoryViewSet(mixins.CreateModelMixin, mixins.RetrieveModelMixin, mixins.ListModelMixin, GenericViewSet):
     serializer_class = CategorySerializer
     queryset = Category.objects.filter(enabled=True)
     permission_classes = (IsAuthenticated,)
