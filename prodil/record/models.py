@@ -53,6 +53,7 @@ class Resource(Model):
     slug = CharField(_("Slug"), max_length=200)
     note = TextField(_("Note"), max_length=300, default="", blank=True)
     rating = FloatField(
+        _("Rating"),
         default=5.0,
         validators=[MinValueValidator(0.0), MaxValueValidator(10.0)],
     )
@@ -81,14 +82,15 @@ class Resource(Model):
         default=Content.DOCUMENT,
         max_length=2,
     )
-    file_name = CharField(_("File Name"), max_length=255)
-    file_id = CharField(_("File ID"), max_length=100, default="")
-    file_size = PositiveIntegerField(_("File Size"), blank=True)
+    file_name = CharField(_("File Name"), max_length=255, null=True, blank=True)
+    file_id = CharField(_("File ID"), max_length=100, default="", null=True, blank=True)
+    file_size = PositiveIntegerField(_("File Size"), null=True, blank=True)
     url = CharField(_("Website"), max_length=100, blank=True)
     image = ImageField(
         _("Image"),
         upload_to="resource_imgs",
         default="not-found.jpg",
+        blank=True,
     )
     created = DateTimeField(auto_now_add=True)
     updated = DateTimeField(auto_now=True)
