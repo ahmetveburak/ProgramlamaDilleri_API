@@ -38,7 +38,7 @@ class Author(Model):
 class Category(Model):
     name = CharField(_("Category Name"), max_length=50)
     enabled = BooleanField(_("Is Enabled?"), default=True)
-    order = IntegerField(_("Order"))
+    order = IntegerField(_("Order"), blank=True)
 
     def __str__(self) -> str:
         return self.name
@@ -46,6 +46,13 @@ class Category(Model):
     class Meta:
         verbose_name = _("category")
         verbose_name_plural = _("categories")
+
+    def save(self, *args, **kwargs):
+        if not any((self.pk, self.order)):
+            obj = Category.objects.last()
+            self.order = obj.order + 1
+
+        super().save()
 
 
 class Resource(Model):
