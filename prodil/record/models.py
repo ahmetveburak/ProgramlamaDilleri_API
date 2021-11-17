@@ -48,8 +48,10 @@ class Category(Model):
         verbose_name_plural = _("categories")
 
     def save(self, *args, **kwargs):
+        obj = Category.objects.order_by("order").last()
         if not any((self.pk, self.order)):
-            obj = Category.objects.last()
+            self.order = obj.order + 1 if obj else 1
+        elif self.order and self.order - obj.order > 1:
             self.order = obj.order + 1
 
         super().save()
