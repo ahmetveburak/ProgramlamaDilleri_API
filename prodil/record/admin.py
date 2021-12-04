@@ -37,9 +37,12 @@ class ResourceAdmin(admin.ModelAdmin):
         ),
         (
             "File Info",
-            {"fields": ("file_name",)},
+            {"fields": ("file_name", "file_id", "file_unique_id", "file_size")},
         ),
+        ("Date Info", {"fields": ("created", "updated")}),
     )
+
+    readonly_fields = ("file_name", "file_id", "file_unique_id", "file_size", "created", "updated")
 
 
 @admin.register(Author)
