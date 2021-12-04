@@ -3,7 +3,12 @@ from rest_framework.pagination import PageNumberPagination
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import GenericViewSet
 
-from prodil.record.api.serializers import CategorySerializer, ResourceSerializer, ResourceUpdateSerializer
+from prodil.record.api.serializers import (
+    CategorySerializer,
+    ResourceCreateSerializer,
+    ResourceSerializer,
+    ResourceUpdateSerializer,
+)
 from prodil.record.filters import ResourceFilter
 from prodil.record.models import Category, Resource
 
@@ -13,12 +18,17 @@ class ResourcePagination(PageNumberPagination):
     page_size_query_param = "page_size"
 
 
-class ResourceViewSet(mixins.RetrieveModelMixin, mixins.ListModelMixin, GenericViewSet):
+class ResourceViewSet(mixins.RetrieveModelMixin, mixins.CreateModelMixin, mixins.ListModelMixin, GenericViewSet):
     serializer_class = ResourceSerializer
     queryset = Resource.objects.filter(enabled=True).order_by("-rating")
     pagination_class = ResourcePagination
     permission_classes = (IsAuthenticated,)
     filterset_class = ResourceFilter
+
+    def get_serializer_class(self):
+        if self.action == "create":
+            return ResourceCreateSerializer
+        return super().get_serializer_class()
 
 
 class ResourceUpdateViewSet(
