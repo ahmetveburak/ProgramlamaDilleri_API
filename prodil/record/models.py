@@ -66,7 +66,7 @@ class Resource(Model):
         default=5.0,
         validators=[MinValueValidator(0.0), MaxValueValidator(10.0)],
     )
-    enabled = BooleanField(_("Is Enabled?"), default=True)
+    enabled = BooleanField(_("Is Enabled?"), default=False)
     author = ManyToManyField(
         to=Author,
         related_name="resource_authors",
@@ -92,7 +92,8 @@ class Resource(Model):
         max_length=2,
     )
     file_name = CharField(_("File Name"), max_length=255, null=True, blank=True)
-    file_id = CharField(_("File ID"), max_length=100, default="", null=True, blank=True)
+    file_id = CharField(_("File ID"), max_length=100, null=True, blank=True)
+    file_unique_id = CharField(_("File Unique ID"), max_length=100, null=True, blank=True)
     file_size = PositiveIntegerField(_("File Size"), null=True, blank=True)
     url = CharField(_("Website"), max_length=100, blank=True)
     image = ImageField(
