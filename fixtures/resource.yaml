@@ -11,11 +11,13 @@
     level: PRO
     content: DC
     file_name: 21st_century_c.pdf
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.962600+00:00
-    updated: 2021-10-19 19:41:56.962628+00:00
+    updated: 2022-04-02 09:17:32.424672+00:00
     author:
     - 11
     category:
@@ -32,12 +34,14 @@
     local: EN
     level: PRO
     content: DC
-    file_name: Advanced_C.pdf
-    file_id: ''
+    file_name: advanced_c.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.965081+00:00
-    updated: 2021-10-19 19:41:56.965097+00:00
+    updated: 2022-04-02 09:17:32.572361+00:00
     author:
     - 90
     category:
@@ -54,12 +58,14 @@
     local: EN
     level: PRO
     content: DC
-    file_name: C_traps_and_pitfalls.pdf
-    file_id: ''
+    file_name: c_traps_and_pitfalls.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.966795+00:00
-    updated: 2021-10-19 19:41:56.966810+00:00
+    updated: 2022-04-02 09:17:40.966577+00:00
     author:
     - 6
     category:
@@ -75,12 +81,14 @@
     local: TR
     level: PRO
     content: DC
-    file_name: bgnet.pdf
-    file_id: ''
+    file_name: beejin_ag_programlama_klavuzu.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.968403+00:00
-    updated: 2021-10-19 19:41:56.968418+00:00
+    updated: 2022-04-02 09:17:32.706347+00:00
     author:
     - 12
     category:
@@ -97,12 +105,14 @@
     local: EN
     level: PRO
     content: DC
-    file_name: Buffer.Overflow.Attacks.pdf
-    file_id: ''
+    file_name: buffer_overflow_attacks.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.970029+00:00
-    updated: 2021-10-19 19:41:56.970049+00:00
+    updated: 2022-04-02 09:17:32.839789+00:00
     author:
     - 57
     - 79
@@ -121,35 +131,16 @@
     local: EN
     level: EXP
     content: DC
-    file_name: C_Programming_FAQs.pdf
-    file_id: ''
+    file_name: c_faqs.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.973507+00:00
-    updated: 2021-10-19 19:41:56.973525+00:00
+    updated: 2022-04-02 09:17:36.842568+00:00
     author:
     - 100
-    category:
-    - 1
-- model: record.resource
-  pk: 7
-  fields:
-    name: C&C++ Code Capsules
-    slug: c-c-code-capsules
-    note: C ve C++ ile karşılaştırmalı ilerleyen pratik çözümler içeren bir eser
-    rating: 5.0
-    enabled: true
-    local: EN
-    level: PRO
-    content: DC
-    file_name: C_Cpp_Code_Capsules.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:56.975146+00:00
-    updated: 2021-10-19 19:41:56.975160+00:00
-    author:
-    - 17
     category:
     - 1
 - model: record.resource
@@ -164,12 +155,14 @@
     local: EN
     level: EXP
     content: DC
-    file_name: C_Aptitude.pdf
-    file_id: ''
+    file_name: c_aptitude.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.976767+00:00
-    updated: 2021-10-19 19:41:56.976782+00:00
+    updated: 2022-04-02 09:17:33.015307+00:00
     author:
     - 51
     category:
@@ -186,12 +179,14 @@
     local: EN
     level: EXP
     content: DC
-    file_name: csocketprog.pdf
-    file_id: ''
+    file_name: intro_to_sockets_c.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.978395+00:00
-    updated: 2021-10-19 19:41:56.978409+00:00
+    updated: 2022-04-02 09:17:41.570657+00:00
     author:
     - 34
     - 89
@@ -208,12 +203,14 @@
     local: EN
     level: EXP
     content: DC
-    file_name: ExpertCProgamming.pdf
-    file_id: ''
+    file_name: expert_c_programming.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.980541+00:00
-    updated: 2021-10-19 19:41:56.980556+00:00
+    updated: 2022-04-02 09:17:41.393360+00:00
     author:
     - 87
     category:
@@ -229,12 +226,14 @@
     local: EN
     level: PRO
     content: DC
-    file_name: ModernC.pdf
-    file_id: ''
+    file_name: modern_c.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.982223+00:00
-    updated: 2021-10-19 19:41:56.982238+00:00
+    updated: 2022-04-02 09:17:41.706624+00:00
     author:
     - 59
     category:
@@ -242,7 +241,7 @@
 - model: record.resource
   pk: 12
   fields:
-    name: SERIAL  TRANSMISSION & RECEPTION
+    name: Serial Transmission & Reception
     slug: serial-transmission-reception
     note: C ile windows makinede seri haberleşme anlatımına sahip ingilizce not.
     rating: 5.0
@@ -250,12 +249,14 @@
     local: EN
     level: PRO
     content: DC
-    file_name: Serial_Programming.pdf
-    file_id: ''
+    file_name: serial_programming.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.983855+00:00
-    updated: 2021-10-19 19:41:56.983870+00:00
+    updated: 2022-04-02 09:25:03.194818+00:00
     author:
     - 76
     category:
@@ -271,39 +272,20 @@
     local: TR
     level: BGN
     content: DC
-    file_name: c_cpp_deitel.pdf
-    file_id: ''
+    file_name: c_cpp_deitel_tr.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.985470+00:00
-    updated: 2021-10-19 19:41:56.985485+00:00
+    updated: 2022-04-02 09:17:33.513054+00:00
     author:
     - 44
     - 92
     category:
     - 1
     - 2
-- model: record.resource
-  pk: 14
-  fields:
-    name: Programming with C
-    slug: programming-with-c
-    note: Tarihsel anlatımıyla, güzel anektotlarıyla büyüleyici bir eser
-    rating: 8.0
-    enabled: true
-    local: EN
-    level: BGN
-    content: DC
-    file_name: C_Cpp_Deitel_Eng.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:56.988148+00:00
-    updated: 2021-10-19 19:41:56.988163+00:00
-    author:
-    - 44
-    category:
-    - 1
 - model: record.resource
   pk: 15
   fields:
@@ -316,35 +298,16 @@
     local: EN
     level: EXP
     content: DC
-    file_name: c_interfaces_and_implementations_techniques_for_creating_reusable.pdf
-    file_id: ''
+    file_name: c_interfaces_and_implementations_techniques.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.989817+00:00
-    updated: 2021-10-19 19:41:56.989834+00:00
+    updated: 2022-04-02 09:17:37.119003+00:00
     author:
     - 32
-    category:
-    - 1
-- model: record.resource
-  pk: 16
-  fields:
-    name: C Klavuzu A'dan Z'ye
-    slug: c-klavuzu-a-dan-z-ye
-    note: Kaan Aslan hocamızın zamanında çıkardığı C kitabı
-    rating: 5.0
-    enabled: true
-    local: TR
-    level: BGN
-    content: DC
-    file_name: C-klavuzu-adan-zye.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:56.991572+00:00
-    updated: 2021-10-19 19:41:56.991587+00:00
-    author:
-    - 9
     category:
     - 1
 - model: record.resource
@@ -358,12 +321,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: c.ihsan.serhatlioglu.pdf
-    file_id: ''
+    file_name: c_ihsan_serhatlioglu.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.993185+00:00
-    updated: 2021-10-19 19:41:56.993200+00:00
+    updated: 2022-04-02 09:17:36.982488+00:00
     author:
     - 53
     category:
@@ -379,12 +344,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: c.ismet.kocaman.pdf
-    file_id: ''
+    file_name: c_ismet_kocaman.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.994792+00:00
-    updated: 2021-10-19 19:41:56.994806+00:00
+    updated: 2022-04-02 09:17:37.300105+00:00
     author:
     - 54
     category:
@@ -400,35 +367,16 @@
     local: TR
     level: BGN
     content: DC
-    file_name: ccs_serdar.pdf
-    file_id: ''
+    file_name: ccs_c_pic_serdar.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.996408+00:00
-    updated: 2021-10-19 19:41:56.996422+00:00
+    updated: 2022-04-02 09:17:41.255984+00:00
     author:
     - 98
-    category:
-    - 1
-- model: record.resource
-  pk: 20
-  fields:
-    name: C Dili Kullanarak Bilgisayar Programlama
-    slug: c-dili-kullanarak-bilgisayar-programlama
-    note: Programlamaya C ile başlamak isteyenler iyi ve öneriler de içeren ders notu
-    rating: 5.0
-    enabled: true
-    local: TR
-    level: BGN
-    content: DC
-    file_name: CNotlari.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:56.998031+00:00
-    updated: 2021-10-19 19:41:56.998046+00:00
-    author:
-    - 45
     category:
     - 1
 - model: record.resource
@@ -442,12 +390,14 @@
     local: EN
     level: BGN
     content: DC
-    file_name: HerbertC.pdf
-    file_id: ''
+    file_name: c_the_complete_refrence.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:56.999737+00:00
-    updated: 2021-10-19 19:41:56.999752+00:00
+    updated: 2022-04-02 09:17:37.896879+00:00
     author:
     - 43
     category:
@@ -463,12 +413,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: picproje_c.pdf
-    file_id: ''
+    file_name: pic_proje_c.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.001349+00:00
-    updated: 2021-10-19 19:41:57.001364+00:00
+    updated: 2022-04-02 09:17:42.158054+00:00
     author:
     - 88
     category:
@@ -487,11 +439,13 @@
     level: PRO
     content: DC
     file_name: clientserver.zip
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.002993+00:00
-    updated: 2021-10-19 19:41:57.003008+00:00
+    updated: 2022-04-02 09:17:45.695478+00:00
     author:
     - 41
     category:
@@ -508,11 +462,13 @@
     level: PRO
     content: DC
     file_name: socket_ender.pdf
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.004626+00:00
-    updated: 2021-10-19 19:41:57.004641+00:00
+    updated: 2022-04-02 09:17:45.365224+00:00
     author:
     - 109
     category:
@@ -528,12 +484,14 @@
     local: EN
     level: PRO
     content: DC
-    file_name: Network_Oriented_C.pdf
-    file_id: ''
+    file_name: network_oriented_c.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.006452+00:00
-    updated: 2021-10-19 19:41:57.006475+00:00
+    updated: 2022-04-02 09:17:41.841544+00:00
     author:
     - 60
     category:
@@ -549,12 +507,14 @@
     local: TR
     level: PRO
     content: DC
-    file_name: Fonksiyonlar_Threadler.pdf
-    file_id: ''
+    file_name: standart_c_fonksiyonlari_ve_threadler.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.008138+00:00
-    updated: 2021-10-19 19:41:57.008153+00:00
+    updated: 2022-04-02 09:17:45.516604+00:00
     author:
     - 114
     category:
@@ -570,12 +530,14 @@
     local: TR
     level: PRO
     content: DC
-    file_name: VeriYapıları_MustafaEge.zip
-    file_id: ''
+    file_name: veri_yapilari_mustafa_ege.zip
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.009765+00:00
-    updated: 2021-10-19 19:41:57.009780+00:00
+    updated: 2022-04-02 09:17:45.831175+00:00
     author:
     - 72
     category:
@@ -591,12 +553,14 @@
     local: EN
     level: PRO
     content: DC
-    file_name: ooc.pdf
-    file_id: ''
+    file_name: object_oriented_c.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.011377+00:00
-    updated: 2021-10-19 19:41:57.011391+00:00
+    updated: 2022-04-02 09:17:42.020285+00:00
     author:
     - 62
     category:
@@ -613,11 +577,13 @@
     level: BGN
     content: DC
     file_name: algoritmalar_ve_programlama.pdf
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.013000+00:00
-    updated: 2021-10-19 19:41:57.013015+00:00
+    updated: 2022-04-02 09:44:33.750545+00:00
     author:
     - 3
     category:
@@ -633,12 +599,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Cpp_Necati_Hoca.pdf
-    file_id: ''
+    file_name: cpp_necati_hoca.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.014632+00:00
-    updated: 2021-10-19 19:41:57.014646+00:00
+    updated: 2022-04-02 09:18:55.394696+00:00
     author:
     - 82
     category:
@@ -654,12 +622,14 @@
     local: EN
     level: EXP
     content: DC
-    file_name: Design_Patterns_in_Modern_Cpp.pdf
-    file_id: ''
+    file_name: design_patterns_in_modern_cpp.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.016285+00:00
-    updated: 2021-10-19 19:41:57.016300+00:00
+    updated: 2022-04-02 09:18:56.319619+00:00
     author:
     - 24
     category:
@@ -676,12 +646,14 @@
     local: TR
     level: PRO
     content: DC
-    file_name: qt4ilecppgui.pdf
-    file_id: ''
+    file_name: qt4_ile_cpp_programlama.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.017906+00:00
-    updated: 2021-10-19 19:41:57.017921+00:00
+    updated: 2022-04-02 09:18:59.883642+00:00
     author:
     - 106
     category:
@@ -697,12 +669,14 @@
     local: EN
     level: PRO
     content: DC
-    file_name: DataStructures_PatMorin.pdf
-    file_id: ''
+    file_name: data_structures_pat_morin.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.019540+00:00
-    updated: 2021-10-19 19:41:57.019554+00:00
+    updated: 2022-04-02 09:18:56.183874+00:00
     author:
     - 86
     category:
@@ -718,12 +692,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Cpp_MKU_Notlari_EsenYildirim.pdf
-    file_id: ''
+    file_name: cpp_notlari_esen_yildirim.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.021158+00:00
-    updated: 2021-10-19 19:41:57.021173+00:00
+    updated: 2022-04-02 09:18:55.728744+00:00
     author:
     - 112
     category:
@@ -740,12 +716,14 @@
     local: TR
     level: EXP
     content: DC
-    file_name: Qt_ile_UygulamaGelistirme_KaanAslan.pdf
-    file_id: ''
+    file_name: qt_ile_uygulama_gelistirme.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.022769+00:00
-    updated: 2021-10-19 19:41:57.022784+00:00
+    updated: 2022-04-02 09:18:56.454648+00:00
     author:
     - 9
     category:
@@ -761,12 +739,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Cpp_Uni_Notlari.zip
-    file_id: ''
+    file_name: cpp_uni_notlari.zip
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.024506+00:00
-    updated: 2021-10-19 19:41:57.024522+00:00
+    updated: 2022-04-02 09:19:00.021005+00:00
     author:
     - 62
     category:
@@ -782,12 +762,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Nesneye_Yonelik_Programlama_AYU.zip
-    file_id: ''
+    file_name: nesneye_yonelik_programlama_AYU.zip
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.026129+00:00
-    updated: 2021-10-19 19:41:57.026144+00:00
+    updated: 2022-04-02 09:19:00.164927+00:00
     author:
     - 29
     category:
@@ -803,12 +785,14 @@
     local: EN
     level: BGN
     content: DC
-    file_name: Thinking_in_Cpp.zip
-    file_id: ''
+    file_name: thinking_in_cpp.zip
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.027772+00:00
-    updated: 2021-10-19 19:41:57.027787+00:00
+    updated: 2022-04-02 09:19:00.300376+00:00
     author:
     - 16
     category:
@@ -824,12 +808,14 @@
     local: EN
     level: BGN
     content: DC
-    file_name: Cpp_Primer(5th Edition).pdf
-    file_id: ''
+    file_name: cpp_primer_5th_edition.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.029393+00:00
-    updated: 2021-10-19 19:41:57.029408+00:00
+    updated: 2022-04-02 09:18:55.868825+00:00
     author:
     - 13
     - 58
@@ -850,34 +836,15 @@
     level: BGN
     content: DC
     file_name: python3_istihza.pdf
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.032115+00:00
-    updated: 2021-10-19 19:41:57.032135+00:00
+    updated: 2022-04-02 09:33:03.111783+00:00
     author:
     - 36
-    category:
-    - 3
-- model: record.resource
-  pk: 41
-  fields:
-    name: Python Nesne Tabanlı Programlama
-    slug: python-nesne-tabanli-programlama
-    note: Erciyes Üniversitesi ders notları
-    rating: 5.0
-    enabled: true
-    local: TR
-    level: BGN
-    content: DC
-    file_name: Python_OOP_Erciyes.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:57.033772+00:00
-    updated: 2021-10-19 19:41:57.033786+00:00
-    author:
-    - 27
     category:
     - 3
 - model: record.resource
@@ -891,58 +858,18 @@
     local: EN
     level: BGN
     content: DC
-    file_name: Automate_The_Boring_Stuff_With_Python.pdf
-    file_id: ''
+    file_name: automate_the_boring_stuff_with_python.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.035427+00:00
-    updated: 2021-10-19 19:41:57.035446+00:00
+    updated: 2022-04-02 09:31:24.914536+00:00
     author:
     - 4
     category:
     - 3
-- model: record.resource
-  pk: 43
-  fields:
-    name: Django Web Framework
-    slug: django-web-framework
-    note: Django Web Framework için Türkçe kaynak.
-    rating: 8.0
-    enabled: true
-    local: TR
-    level: BGN
-    content: DC
-    file_name: django_tr.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:57.037047+00:00
-    updated: 2021-10-19 19:41:57.037061+00:00
-    author:
-    - 67
-    category:
-    - 3
-- model: record.resource
-  pk: 44
-  fields:
-    name: Algoritma ve Programlamaya Giriş
-    slug: algoritma-ve-programlamaya-giris
-    note: Balıkesir Üniversitesi Ders Notları
-    rating: 7.4
-    enabled: true
-    local: TR
-    level: BGN
-    content: DC
-    file_name: Algoritma_ve_Programlamaya_Giris.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:57.038693+00:00
-    updated: 2021-10-19 19:41:57.038709+00:00
-    author:
-    - 25
-    category:
-    - 6
 - model: record.resource
   pk: 45
   fields:
@@ -954,12 +881,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: C_KaanAslan.pdf
-    file_id: ''
+    file_name: c_kaan_aslan_notlar.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.040348+00:00
-    updated: 2021-10-19 19:41:57.040363+00:00
+    updated: 2022-04-02 09:17:37.439892+00:00
     author:
     - 9
     category:
@@ -975,12 +904,14 @@
     local: EN
     level: EXP
     content: DC
-    file_name: CPlusPlusNotesForProfessionals.pdf
-    file_id: ''
+    file_name: cpp_notes_for_professionals.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.041997+00:00
-    updated: 2021-10-19 19:41:57.042012+00:00
+    updated: 2022-04-02 09:18:55.551270+00:00
     author:
     - 40
     category:
@@ -996,12 +927,14 @@
     local: EN
     level: EXP
     content: DC
-    file_name: Fluent_Python.pdf
-    file_id: ''
+    file_name: fluent_python.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.043614+00:00
-    updated: 2021-10-19 19:41:57.043629+00:00
+    updated: 2022-04-02 09:32:10.790397+00:00
     author:
     - 65
     category:
@@ -1017,12 +950,14 @@
     local: EN
     level: EXP
     content: DC
-    file_name: Cython.pdf
-    file_id: ''
+    file_name: cython.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.045246+00:00
-    updated: 2021-10-19 19:41:57.045261+00:00
+    updated: 2022-04-02 09:31:35.635443+00:00
     author:
     - 63
     category:
@@ -1038,35 +973,16 @@
     local: EN
     level: BGN
     content: DC
-    file_name: Python_OOP.pdf
-    file_id: ''
+    file_name: learning_python.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.046875+00:00
-    updated: 2021-10-19 19:41:57.046889+00:00
+    updated: 2022-04-02 09:32:46.285979+00:00
     author:
     - 74
-    category:
-    - 3
-- model: record.resource
-  pk: 50
-  fields:
-    name: Kivy Documentation
-    slug: kivy-documentation
-    note: Kivy Framework dokümantasyonu. Python v3.7 üstü desteklenmemektedir.
-    rating: 5.0
-    enabled: true
-    local: EN
-    level: BGN
-    content: DC
-    file_name: kivy.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:57.048488+00:00
-    updated: 2021-10-19 19:41:57.048505+00:00
-    author:
-    - 110
     category:
     - 3
 - model: record.resource
@@ -1080,12 +996,14 @@
     local: EN
     level: BGN
     content: DC
-    file_name: SciPy_LectureNotes.pdf
-    file_id: ''
+    file_name: scipy_lecture_notes.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.050130+00:00
-    updated: 2021-10-19 19:41:57.050145+00:00
+    updated: 2022-04-02 09:33:41.525487+00:00
     author:
     - 111
     category:
@@ -1101,35 +1019,16 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Python_Cheat_Sheet.pdf
-    file_id: ''
+    file_name: python_cheat_sheet.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.051736+00:00
-    updated: 2021-10-19 19:41:57.051750+00:00
+    updated: 2022-04-02 09:32:50.889100+00:00
     author:
     - 1
-    category:
-    - 3
-- model: record.resource
-  pk: 53
-  fields:
-    name: Kivy GUI Programlama
-    slug: kivy-gui-programlama
-    note: ''
-    rating: 5.0
-    enabled: true
-    local: TR
-    level: BGN
-    content: DC
-    file_name: kivy-tr.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:57.053344+00:00
-    updated: 2021-10-19 19:41:57.053359+00:00
-    author:
-    - 73
     category:
     - 3
 - model: record.resource
@@ -1143,36 +1042,16 @@
     local: EN
     level: EXP
     content: DC
-    file_name: PythonNetBinder.pdf
-    file_id: ''
+    file_name: python_network_programming.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.054952+00:00
-    updated: 2021-10-19 19:41:57.054966+00:00
+    updated: 2022-04-02 09:32:54.072149+00:00
     author:
     - 22
-    category:
-    - 3
-- model: record.resource
-  pk: 55
-  fields:
-    name: Violent Python
-    slug: violent-python
-    note: A Cookbook for Hackers, Forensic Analysts, Penetration Testers and Security
-      Engineers
-    rating: 5.0
-    enabled: true
-    local: EN
-    level: PRO
-    content: DC
-    file_name: Violent_Python_Cookbook.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:57.056760+00:00
-    updated: 2021-10-19 19:41:57.056783+00:00
-    author:
-    - 104
     category:
     - 3
 - model: record.resource
@@ -1186,35 +1065,16 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Java_A_Altintas.zip
-    file_id: ''
+    file_name: java_a_altintas.zip
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.058818+00:00
-    updated: 2021-10-19 19:41:57.058834+00:00
+    updated: 2022-04-02 09:37:12.312502+00:00
     author:
     - 5
-    category:
-    - 4
-- model: record.resource
-  pk: 57
-  fields:
-    name: Java ile 24 Kahve Molası
-    slug: java-ile-24-kahve-molasi
-    note: Java Notları
-    rating: 5.0
-    enabled: true
-    local: TR
-    level: BGN
-    content: DC
-    file_name: Javaile24KahveMolasi.docx
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:57.060449+00:00
-    updated: 2021-10-19 19:41:57.060464+00:00
-    author:
-    - 10
     category:
     - 4
 - model: record.resource
@@ -1228,12 +1088,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Gorsel_Programlama.zip
-    file_id: ''
+    file_name: gorsel_programlama.zip
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.062071+00:00
-    updated: 2021-10-19 19:41:57.062086+00:00
+    updated: 2022-04-02 09:37:05.202165+00:00
     author:
     - 62
     category:
@@ -1249,12 +1111,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Java_Dili_ile_Programlama.pdf
-    file_id: ''
+    file_name: java_dili_ile_programlama.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.063700+00:00
-    updated: 2021-10-19 19:41:57.063715+00:00
+    updated: 2022-04-02 09:37:26.640310+00:00
     author:
     - 75
     category:
@@ -1270,12 +1134,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Java_ile_Nesneye_Yonelik_Programlama.pdf
-    file_id: ''
+    file_name: java_ile_nesneye_yonelik_programlama.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.065342+00:00
-    updated: 2021-10-19 19:41:57.065357+00:00
+    updated: 2022-04-02 09:37:40.558370+00:00
     author:
     - 5
     category:
@@ -1291,12 +1157,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Java_Kitabi.pdf
-    file_id: ''
+    file_name: java_kitabi.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.066973+00:00
-    updated: 2021-10-19 19:41:57.066987+00:00
+    updated: 2022-04-02 09:37:42.774506+00:00
     author:
     - 62
     category:
@@ -1312,12 +1180,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Java_OguzArslanturk.pdf
-    file_id: ''
+    file_name: java_nesneye_yonelik_programlama.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.068607+00:00
-    updated: 2021-10-19 19:41:57.068622+00:00
+    updated: 2022-04-02 09:37:46.740842+00:00
     author:
     - 83
     category:
@@ -1333,12 +1203,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Java_The_Complete_Reference_11th_Edt.pdf
-    file_id: ''
+    file_name: java_the_complete_reference_11th_edt.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.070227+00:00
-    updated: 2021-10-19 19:41:57.070242+00:00
+    updated: 2022-04-02 09:40:55.264611+00:00
     author:
     - 43
     category:
@@ -1354,59 +1226,18 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Thinking_in_Java_4th_edition.pdf
-    file_id: ''
+    file_name: thinking_in_java_4th_edition.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.071857+00:00
-    updated: 2021-10-19 19:41:57.071873+00:00
+    updated: 2022-04-02 09:41:09.851428+00:00
     author:
     - 16
     category:
     - 4
-- model: record.resource
-  pk: 65
-  fields:
-    name: Temel C Programlama
-    slug: temel-c-programlama
-    note: Yeni başlayanlar için C programlamanın temelleri
-    rating: 8.0
-    enabled: true
-    local: TR
-    level: BGN
-    content: DC
-    file_name: Temel_C_Programlama_GDokmetas.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:57.073532+00:00
-    updated: 2021-10-19 19:41:57.073555+00:00
-    author:
-    - 39
-    category:
-    - 1
-- model: record.resource
-  pk: 66
-  fields:
-    name: Herkes İçin C#
-    slug: herkes-icin-c
-    note: Sıfırdan başlayacaklar için temel oluşturarak, işin mantığını kavramayı
-      sağlayan biçimde yazılan bir kitap
-    rating: 10.0
-    enabled: true
-    local: TR
-    level: BGN
-    content: DC
-    file_name: Herkes-Icin-Csharp-HSchildt.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:57.075232+00:00
-    updated: 2021-10-19 19:41:57.075247+00:00
-    author:
-    - 43
-    category:
-    - 5
 - model: record.resource
   pk: 67
   fields:
@@ -1418,58 +1249,16 @@
     local: EN
     level: BGN
     content: DC
-    file_name: Csharp-in-Depth-4th-Edition.pdf
-    file_id: ''
+    file_name: csharp_in_depth_4th_edition.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.076859+00:00
-    updated: 2021-10-19 19:41:57.076874+00:00
+    updated: 2022-04-02 09:43:30.661355+00:00
     author:
     - 55
-    category:
-    - 5
-- model: record.resource
-  pk: 68
-  fields:
-    name: C# ile Yazılım Tasarım Dersleri ve Prensipleri
-    slug: c-ile-yazilim-tasarim-dersleri-ve-prensipleri
-    note: ' Konularla ilgili Türkçe kaynak az bulunduğundan ve birilerinin işine yarar
-      düşüncesiyle geçmiş dönemlerdeki yazarın notlarından toparlanmış, yazar tarafından
-      doküman haline getirilmiş bir versiyonudur.'
-    rating: 9.9
-    enabled: true
-    local: EN
-    level: BGN
-    content: DC
-    file_name: Csharp-ile-Yazilim-Tasarim-Desenleri.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:57.078486+00:00
-    updated: 2021-10-19 19:41:57.078501+00:00
-    author:
-    - 69
-    category:
-    - 5
-- model: record.resource
-  pk: 69
-  fields:
-    name: C# Programming Yellow Book
-    slug: c-programming-yellow-book
-    note: Kitaptaki kod örneklerin [buradan](http://www.csharpcourse.com/) ulaşabilirsiniz
-    rating: 9.0
-    enabled: true
-    local: EN
-    level: BGN
-    content: DC
-    file_name: Csharp-Programming-Yellow-Book.pdf
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:57.080096+00:00
-    updated: 2021-10-19 19:41:57.080111+00:00
-    author:
-    - 93
     category:
     - 5
 - model: record.resource
@@ -1483,12 +1272,14 @@
     local: EN
     level: BGN
     content: DC
-    file_name: Algorithms-and-Complexity.pdf
-    file_id: ''
+    file_name: algorithms_and_complexity.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.081714+00:00
-    updated: 2021-10-19 19:41:57.081729+00:00
+    updated: 2022-04-02 09:53:44.308874+00:00
     author:
     - 46
     category:
@@ -1504,12 +1295,14 @@
     local: EN
     level: BGN
     content: DC
-    file_name: Data-Structures-Succinctly-Part1.pdf
-    file_id: ''
+    file_name: data_structures_succinctly_part1.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.083398+00:00
-    updated: 2021-10-19 19:41:57.083414+00:00
+    updated: 2022-04-02 09:55:55.582241+00:00
     author:
     - 94
     category:
@@ -1525,12 +1318,14 @@
     local: EN
     level: BGN
     content: DC
-    file_name: Data-Structures-Succinctly-Part2.pdf
-    file_id: ''
+    file_name: data_structures_succinctly_part2.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.085015+00:00
-    updated: 2021-10-19 19:41:57.085030+00:00
+    updated: 2022-04-02 09:56:01.954235+00:00
     author:
     - 94
     category:
@@ -1546,12 +1341,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Git101.pdf
-    file_id: ''
+    file_name: git101.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.086631+00:00
-    updated: 2021-10-19 19:41:57.086646+00:00
+    updated: 2022-04-02 09:56:09.852257+00:00
     author:
     - 2
     category:
@@ -1567,12 +1364,14 @@
     local: EN
     level: BGN
     content: DC
-    file_name: Linux-Isletim-Sistemi.pdf
-    file_id: ''
+    file_name: linux_isletim_sistemi.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.088269+00:00
-    updated: 2021-10-19 19:41:57.088283+00:00
+    updated: 2022-04-02 09:44:43.496198+00:00
     author:
     - 97
     category:
@@ -1588,12 +1387,14 @@
     local: EN
     level: BGN
     content: DC
-    file_name: Linux-Succinctly.pdf
-    file_id: ''
+    file_name: linux_succinctly.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.090126+00:00
-    updated: 2021-10-19 19:41:57.090145+00:00
+    updated: 2022-04-02 09:56:25.535580+00:00
     author:
     - 61
     category:
@@ -1609,38 +1410,18 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Veri-Yapilari-ve-Algoritmalar.pdf
-    file_id: ''
+    file_name: veri_yapilari_ve_algoritmalar.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.092021+00:00
-    updated: 2021-10-19 19:41:57.092040+00:00
+    updated: 2022-04-02 09:45:16.561774+00:00
     author:
     - 33
     category:
     - 6
-- model: record.resource
-  pk: 77
-  fields:
-    name: Test Kaydi
-    slug: test-kaydi
-    note: Birçok farklı C kod örneğini içermektedir. Yeni öğrenenlerin incelemesi
-      tavsiye edilir.
-    rating: 7.1
-    enabled: true
-    local: TR
-    level: BGN
-    content: DC
-    file_name: C_Ornekleri.txt
-    file_id: ''
-    url: ''
-    image: not-found.jpg
-    created: 2021-10-19 19:41:57.093663+00:00
-    updated: 2021-10-19 19:41:57.093680+00:00
-    author:
-    - 18
-    category:
-    - 1
 - model: record.resource
   pk: 78
   fields:
@@ -1652,12 +1433,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: C_Necati_Hoca_Alistirma_Sorulari.pdf
-    file_id: ''
+    file_name: c_necati_hoca_alistirma_sorulari.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.095299+00:00
-    updated: 2021-10-19 19:41:57.095314+00:00
+    updated: 2022-04-02 09:17:37.578132+00:00
     author:
     - 82
     category:
@@ -1673,12 +1456,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: C_Deitel_Digital.pdf
-    file_id: ''
+    file_name: c_cpp_deitel_tr_digital.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.096944+00:00
-    updated: 2021-10-19 19:41:57.096960+00:00
+    updated: 2022-04-02 09:17:33.286526+00:00
     author:
     - 44
     - 92
@@ -1695,12 +1480,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Cpp_Uygulamalari_Sifre_cdernek.pdf
-    file_id: ''
+    file_name: cpp_uygulamalari_sifre_cdernek.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.099147+00:00
-    updated: 2021-10-19 19:41:57.099162+00:00
+    updated: 2022-04-02 09:18:56.004767+00:00
     author:
     - 18
     category:
@@ -1717,12 +1504,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: Programlamaya-Giris-Ders-Notlari.pdf
-    file_id: ''
+    file_name: c_programlamaya_giris_turgut_uyar.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.100780+00:00
-    updated: 2021-10-19 19:41:57.100795+00:00
+    updated: 2022-04-02 09:17:37.756623+00:00
     author:
     - 47
     category:
@@ -1738,12 +1527,14 @@
     local: TR
     level: BGN
     content: DC
-    file_name: JavaNotesForProfessionals.pdf
-    file_id: ''
+    file_name: java_notes_for_professionals.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.102413+00:00
-    updated: 2021-10-19 19:41:57.102428+00:00
+    updated: 2022-04-02 09:38:00.535978+00:00
     author:
     - 40
     category:
@@ -1759,12 +1550,14 @@
     local: EN
     level: BGN
     content: DC
-    file_name: c-cpp-cheatsheet.pdf
-    file_id: ''
+    file_name: c_cpp_cheatsheet.pdf
+    file_id:
+    file_unique_id:
+    file_size:
     url: ''
     image: not-found.jpg
     created: 2021-10-19 19:41:57.104035+00:00
-    updated: 2021-10-19 19:41:57.104050+00:00
+    updated: 2022-04-02 09:17:33.151043+00:00
     author:
     - 117
     category:
@@ -1782,7 +1575,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: http://turkcekaynaklar.com/
     image: not-found.jpg
     created: 2021-10-19 19:42:06.537148+00:00
@@ -1803,7 +1598,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLh9ECzBB8tJNzJqD64MAS0SK5IeNCKCzY
     image: not-found.jpg
     created: 2021-10-19 19:42:06.539660+00:00
@@ -1824,7 +1621,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLIHume2cwmHdFsJRo5oYG7yQ4NyUx43ql
     image: not-found.jpg
     created: 2021-10-19 19:42:06.541308+00:00
@@ -1845,7 +1644,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLKnjBHu2xXNP-E_TjR-g5Tslm6dW4UH_3
     image: not-found.jpg
     created: 2021-10-19 19:42:06.543002+00:00
@@ -1866,7 +1667,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLfzhcDNz4tlXOvEE7z_u3gEqFO3nwIZ5i
     image: not-found.jpg
     created: 2021-10-19 19:42:06.544648+00:00
@@ -1888,7 +1691,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLBlnK6fEyqRhX6r2uhhlubuF5QextdCSM
     image: not-found.jpg
     created: 2021-10-19 19:42:06.546368+00:00
@@ -1909,7 +1714,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLjcZR1QeYZHTQ8Ch11pZzAeJ01-fPkQ-5
     image: not-found.jpg
     created: 2021-10-19 19:42:06.548054+00:00
@@ -1930,7 +1737,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLeKWVPCoT9e2yxqlQfdevxgy5zf7WFJvh
     image: not-found.jpg
     created: 2021-10-19 19:42:06.549727+00:00
@@ -1951,7 +1760,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.kadifeli.com/fedon/stdcprtr.php
     image: not-found.jpg
     created: 2021-10-19 19:42:06.551386+00:00
@@ -1972,7 +1783,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://docplayer.biz.tr/98055-C-programlama-dili-ne-giris.html
     image: not-found.jpg
     created: 2021-10-19 19:42:06.553053+00:00
@@ -1993,7 +1806,9 @@
     level: PRO
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.gnu.org/software/libc/manual/
     image: not-found.jpg
     created: 2021-10-19 19:42:06.554754+00:00
@@ -2016,7 +1831,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLfs1gAT4S8yIpcu7XwWliYjUGb97IZhOH
     image: not-found.jpg
     created: 2021-10-19 19:42:06.556402+00:00
@@ -2038,7 +1855,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLfs1gAT4S8yIjAWr2hzg1LgZc3cOXOo_g
     image: not-found.jpg
     created: 2021-10-19 19:42:06.558059+00:00
@@ -2060,7 +1879,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLfs1gAT4S8yJuI9WLcTwsANzsHloTz1p5
     image: not-found.jpg
     created: 2021-10-19 19:42:06.559713+00:00
@@ -2081,7 +1902,9 @@
     level: EXP
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: http://bit.do/CSD-Qt
     image: not-found.jpg
     created: 2021-10-19 19:42:06.561613+00:00
@@ -2102,7 +1925,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: http://knockknock.org.uk/igor.html
     image: not-found.jpg
     created: 2021-10-19 19:42:06.563267+00:00
@@ -2123,7 +1948,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.edx.org/course/cs50s-introduction-to-computer-science
     image: not-found.jpg
     created: 2021-10-19 19:42:06.565012+00:00
@@ -2144,7 +1971,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLv8pIziNXv2Mhyn0U_7HCy8NWc7cvxawX
     image: not-found.jpg
     created: 2021-10-19 19:42:06.566732+00:00
@@ -2165,7 +1994,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLIHume2cwmHfmSmNlxXw1j9ZAKzYyiQAq
     image: not-found.jpg
     created: 2021-10-19 19:42:06.568389+00:00
@@ -2186,7 +2017,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLoPK1OnMH5178ZBJNAVBA2FXcBMOYmv_n
     image: not-found.jpg
     created: 2021-10-19 19:42:06.570049+00:00
@@ -2207,7 +2040,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PL14A2BD5C50C91ADB
     image: not-found.jpg
     created: 2021-10-19 19:42:06.571697+00:00
@@ -2228,7 +2063,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://github.com/ibrahimirdem/turkce-python-kaynaklari
     image: not-found.jpg
     created: 2021-10-19 19:42:06.573351+00:00
@@ -2249,7 +2086,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PL-Hkw4CrSVq9Y_RP7Q9Kn-bgZvVdl1cBy
     image: not-found.jpg
     created: 2021-10-19 19:42:06.575008+00:00
@@ -2270,7 +2109,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLK6Whnd55IH5i1klkNSBDasIaO77l-Bm9
     image: not-found.jpg
     created: 2021-10-19 19:42:06.576659+00:00
@@ -2292,7 +2133,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLQoYY0GU_Tk9otubzE0rIQrP2NiiYVnEg
     image: not-found.jpg
     created: 2021-10-19 19:42:06.578322+00:00
@@ -2313,7 +2156,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://tutorial.djangogirls.org/tr/
     image: not-found.jpg
     created: 2021-10-19 19:42:06.579976+00:00
@@ -2335,7 +2180,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLPrHLaayVkhny4WRNp05C1qRl1Aq3Wswh
     image: not-found.jpg
     created: 2021-10-19 19:42:06.581667+00:00
@@ -2357,7 +2204,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ
     image: not-found.jpg
     created: 2021-10-19 19:42:06.583334+00:00
@@ -2378,7 +2227,9 @@
     level: EXP
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PL1A2CSdiySGIPxpSlgzsZiWDavYTAx61d
     image: not-found.jpg
     created: 2021-10-19 19:42:06.584984+00:00
@@ -2399,7 +2250,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://github.com/melihsakarya/java-kitap
     image: not-found.jpg
     created: 2021-10-19 19:42:06.586685+00:00
@@ -2420,7 +2273,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLIHume2cwmHctrHFHADb0slNyn95x2M4I
     image: not-found.jpg
     created: 2021-10-19 19:42:06.588390+00:00
@@ -2441,7 +2296,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLh9ECzBB8tJNWhY-uH1RrvAFI88vC-Snh
     image: not-found.jpg
     created: 2021-10-19 19:42:06.590054+00:00
@@ -2462,7 +2319,9 @@
     level: EXP
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLh9ECzBB8tJPFTpuHKhYayis0H9pS6_rI
     image: not-found.jpg
     created: 2021-10-19 19:42:06.591720+00:00
@@ -2483,7 +2342,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLS1QulWo1RIbfTjQvTdj8Y6yyq4R7g-Al
     image: not-found.jpg
     created: 2021-10-19 19:42:06.593385+00:00
@@ -2504,7 +2365,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: http://www.baskent.edu.tr/~tkaracay/etudio/ders/prg/java/java_ndx.html
     image: not-found.jpg
     created: 2021-10-19 19:42:06.595053+00:00
@@ -2525,7 +2388,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: http://www.kriptarium.com/algoritma.html
     image: not-found.jpg
     created: 2021-10-19 19:42:06.596701+00:00
@@ -2546,7 +2411,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLBlnK6fEyqRjKA_NuK9mHmlk0dZzuP1P5
     image: not-found.jpg
     created: 2021-10-19 19:42:06.598358+00:00
@@ -2567,7 +2434,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://docs.microsoft.com/tr-tr/dotnet/csharp/programming-guide/
     image: not-found.jpg
     created: 2021-10-19 19:42:06.600000+00:00
@@ -2588,7 +2457,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLKnjBHu2xXNPkeQtMOJczzEO6LK5OV35K
     image: not-found.jpg
     created: 2021-10-19 19:42:06.601885+00:00
@@ -2609,7 +2480,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLdo4fOcmZ0oVxKLQCHpiUWun7vlJJvUiN
     image: not-found.jpg
     created: 2021-10-19 19:42:06.603524+00:00
@@ -2630,7 +2503,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://github.com/omergulen/bash-guide
     image: not-found.jpg
     created: 2021-10-19 19:42:06.605151+00:00
@@ -2651,7 +2526,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://github.com/joseluisq/awesome-bash-commands
     image: not-found.jpg
     created: 2021-10-19 19:42:06.606793+00:00
@@ -2672,7 +2549,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://github.com/awesome-lists/awesome-bash
     image: not-found.jpg
     created: 2021-10-19 19:42:06.608422+00:00
@@ -2693,7 +2572,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://github.com/sindresorhus/awesome
     image: not-found.jpg
     created: 2021-10-19 19:42:06.610130+00:00
@@ -2714,7 +2595,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.yusufsezer.com.tr/linux-dersleri/
     image: not-found.jpg
     created: 2021-10-19 19:42:06.611774+00:00
@@ -2735,7 +2618,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLPrHLaayVkhnNstGIzQcxxnj6VYvsHBHy
     image: not-found.jpg
     created: 2021-10-19 19:42:06.613421+00:00
@@ -2756,7 +2641,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLeKWVPCoT9e1tqsgPTQabtumX6E1XpAhz
     image: not-found.jpg
     created: 2021-10-19 19:42:06.615136+00:00
@@ -2777,7 +2664,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PLeKWVPCoT9e0jHStZlH-z8Gsoo1SBZJlG
     image: not-found.jpg
     created: 2021-10-19 19:42:06.616796+00:00
@@ -2798,7 +2687,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://t.me/trkaynak
     image: not-found.jpg
     created: 2021-10-19 19:42:06.618428+00:00
@@ -2819,7 +2710,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://goalkicker.com/
     image: not-found.jpg
     created: 2021-10-19 19:42:06.620077+00:00
@@ -2840,7 +2733,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.twitch.tv/programla/videos
     image: not-found.jpg
     created: 2021-10-19 19:42:06.621732+00:00
@@ -2861,7 +2756,9 @@
     level: BGN
     content: LN
     file_name: ''
-    file_id: ''
+    file_id:
+    file_unique_id:
+    file_size:
     url: https://www.youtube.com/playlist?list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p
     image: not-found.jpg
     created: 2021-10-19 19:42:06.623368+00:00
@@ -2870,3 +2767,72 @@
     - 119
     category:
     - 3
+- model: record.resource
+  pk: 136
+  fields:
+    name: Violent Python
+    slug: violent-python-cookbook-pdf
+    note: ''
+    rating: 5.0
+    enabled: true
+    local: EN
+    level: EXP
+    content: DC
+    file_name: violent_python_cookbook.pdf
+    file_id:
+    file_unique_id:
+    file_size:
+    url: ''
+    image: not-found.jpg
+    created: 2022-04-02 09:33:59.744805+00:00
+    updated: 2022-04-02 09:35:28.130588+00:00
+    author:
+    - 104
+    category:
+    - 3
+- model: record.resource
+  pk: 137
+  fields:
+    name: Algoritma ve Programlamaya Giriş
+    slug: algoritma-ve-programlamaya-giris-pdf
+    note: ''
+    rating: 5.0
+    enabled: false
+    local: TR
+    level: BGN
+    content: DC
+    file_name: algoritma_ve_programlamaya_giris.pdf
+    file_id:
+    file_unique_id:
+    file_size:
+    url: ''
+    image: not-found.jpg
+    created: 2022-04-02 09:44:14.795390+00:00
+    updated: 2022-04-02 09:47:30.522224+00:00
+    author:
+    - 120
+    category:
+    - 6
+- model: record.resource
+  pk: 139
+  fields:
+    name: Linux Referans Komutlar
+    slug: linux-referans-komutlar-pdf
+    note: ''
+    rating: 5.0
+    enabled: false
+    local: EN
+    level: BGN
+    content: DC
+    file_name: linux_referans_komutlar.pdf
+    file_id:
+    file_unique_id:
+    file_size:
+    url: ''
+    image: not-found.jpg
+    created: 2022-04-02 09:48:11.664976+00:00
+    updated: 2022-04-02 09:48:58.106571+00:00
+    author:
+    - 121
+    category:
+    - 6

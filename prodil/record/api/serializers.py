@@ -18,6 +18,7 @@ class ResourceSerializer(serializers.ModelSerializer):
     class Meta:
         model = Resource
         fields = (
+            "id",
             "name",
             "note",
             "rating",
@@ -51,7 +52,7 @@ class ResourceCreateSerializer(serializers.ModelSerializer):
 
         try:
             file = Resource.objects.get(file_name=file_name)
-            file.name = validated_data["name"]
+            file.name = file.name if validated_data["name"] == file.file_name else validated_data["name"]
             file.file_id = validated_data["file_id"]
             file.file_unique_id = validated_data["file_unique_id"]
             file.file_size = validated_data["file_size"]

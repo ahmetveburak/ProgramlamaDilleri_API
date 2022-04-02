@@ -9,6 +9,7 @@ from django.db.models import (
     Model,
     PositiveIntegerField,
     Q,
+    TextChoices,
     TextField,
     UniqueConstraint,
 )
@@ -16,7 +17,22 @@ from django.db.models.fields import DateTimeField
 from django.utils.translation import gettext as _
 from uuslug import uuslug
 
-from prodil.record.managers import Content, Level, Local
+
+class Level(TextChoices):
+    BEGINNER = "BGN", _("Beginner")
+    EXPERIENCED = "EXP", _("Experienced")
+    PROFESSIONAL = "PRO", _("Professional")
+
+
+class Local(TextChoices):
+    ENGLISH = "EN", _("English")
+    TURKISH = "TR", _("Turkish")
+
+
+class Content(TextChoices):
+    BOOK = "BK", _("Book")
+    DOCUMENT = "DC", _("Document")
+    LINK = "LN", _("Link")
 
 
 class Author(Model):
@@ -107,6 +123,9 @@ class Resource(Model):
 
     def __str__(self) -> str:
         return f"{self.content} | {self.name}"
+
+    def has_file_id(self) -> bool:
+        return bool(self.file_id)
 
     def save(self, *args, **kwargs):
         if self.pk is None:

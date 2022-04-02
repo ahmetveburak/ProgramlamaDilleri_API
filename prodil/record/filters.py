@@ -1,7 +1,6 @@
 from django_filters import rest_framework as filters
 
-from prodil.record.managers import Content, Level, Local
-from prodil.record.models import Category, Resource
+from prodil.record.models import Category, Content, Level, Local, Resource
 
 
 class ResourceFilter(filters.FilterSet):

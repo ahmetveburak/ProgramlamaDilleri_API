@@ -1,6 +1,6 @@
 from rest_framework import mixins
 from rest_framework.pagination import PageNumberPagination
-from rest_framework.permissions import IsAuthenticated
+from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
 from rest_framework.viewsets import GenericViewSet
 
 from prodil.record.api.serializers import (
@@ -22,7 +22,7 @@ class ResourceViewSet(mixins.RetrieveModelMixin, mixins.CreateModelMixin, mixins
     serializer_class = ResourceSerializer
     queryset = Resource.objects.filter(enabled=True).order_by("-rating")
     pagination_class = ResourcePagination
-    permission_classes = (IsAuthenticated,)
+    permission_classes = (IsAuthenticatedOrReadOnly,)
     filterset_class = ResourceFilter
 
     def get_serializer_class(self):
@@ -47,5 +47,5 @@ class ResourceUpdateViewSet(
 class CategoryViewSet(mixins.CreateModelMixin, mixins.RetrieveModelMixin, mixins.ListModelMixin, GenericViewSet):
     serializer_class = CategorySerializer
     queryset = Category.objects.filter(enabled=True)
-    permission_classes = (IsAuthenticated,)
+    permission_classes = (IsAuthenticatedOrReadOnly,)
     lookup_field = "name"

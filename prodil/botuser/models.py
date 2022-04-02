@@ -1,6 +1,8 @@
 from django.db import models
 from django.utils.translation import gettext as _
 
+from prodil.record.models import Category, Resource
+
 
 class BotUser(models.Model):
     user_id = models.CharField(_("Telegram User ID"), max_length=100, unique=True)
@@ -18,12 +20,19 @@ class BotUser(models.Model):
 
 class History(models.Model):
     user = models.ForeignKey(
-        "botuser.BotUser",
+        BotUser,
         verbose_name="user history",
         on_delete=models.PROTECT,
     )
+    local = models.CharField(_("Language"), max_length=100, default="")
+    content = models.CharField(_("Content"), max_length=100, default="")
+    category = models.ForeignKey(
+        Category,
+        verbose_name=_("Category"),
+        on_delete=models.PROTECT,
+    )
     created = models.DateTimeField(auto_now_add=True)
-    resource = models.ManyToManyField("record.Resource", blank=True)
+    resource = models.ManyToManyField(Resource, blank=True)
 
     class Meta:
         verbose_name = _("history")

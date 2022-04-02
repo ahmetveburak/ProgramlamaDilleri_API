@@ -13,6 +13,7 @@ class ResourceAdmin(admin.ModelAdmin):
     )
     list_display = (
         "name",
+        "has_file_id",
         "categories",
         "local",
         "level",
