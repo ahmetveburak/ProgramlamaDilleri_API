@@ -712,3 +712,15 @@
     first_name: Corey
     last_name: Schafer
     site: ''
+- model: record.author
+  pk: 120
+  fields:
+    first_name: Doç. Dr. İbrahim
+    last_name: Küçükkoç
+    site: ''
+- model: record.author
+  pk: 121
+  fields:
+    first_name: FossWire
+    last_name: ''
+    site: www.fosswire.com
