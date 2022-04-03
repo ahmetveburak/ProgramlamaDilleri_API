@@ -16,6 +16,7 @@ Including another URLconf
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
+from django.shortcuts import render
 from django.urls import include, path
 from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView
 from rest_framework import routers
@@ -25,7 +26,13 @@ from prodil.record.api.urls import router as resource_router
 router = routers.DefaultRouter()
 router.registry.extend(resource_router.registry)
 
+
+def index(request):
+    return render(request, "index.html", {})
+
+
 urlpatterns = [
+    path("", index, name="index"),
     path("admin/", admin.site.urls),
     path("api/", include((router.urls, "v1"))),
     path("api/schema/", SpectacularAPIView.as_view(api_version="v1"), name="schema"),

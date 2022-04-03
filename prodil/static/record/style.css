@@ -1,0 +1,62 @@
+body{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    margin: 0;
+    background: url("images/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;    
+}
+
+h1, h3, h4{
+    color: white;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    margin : 2px 0px 2px 0px;
+    text-shadow: 0px 2px 7px black;
+}
+
+h4{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 100;
+}
+
+
+i{
+    color: white;
+    padding: 10px 5px 0px 5px;
+    text-shadow: 0px 2px 7px black;
+}
+
+hr{
+    margin-top: 20px;
+    text-shadow: 0px 2px 7px black;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cenbot{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
