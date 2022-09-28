@@ -30,6 +30,7 @@ class History(models.Model):
         Category,
         verbose_name=_("Category"),
         on_delete=models.PROTECT,
+        null=True, blank=True
     )
     created = models.DateTimeField(auto_now_add=True)
     resource = models.ManyToManyField(Resource, blank=True)
